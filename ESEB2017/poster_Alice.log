@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  3 AUG 2017 13:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  3 AUG 2017 19:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,6 +849,82 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip47
+\@affilsep=\skip48
+\c@Maxaffil=\count133
+\c@authors=\count134
+\c@affil=\count135
+)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen283
+\captionmargin@=\dimen284
+\captionwidth=\dimen285
+\caption@tempdima=\dimen286
+\caption@indent=\dimen287
+\caption@parindent=\dimen288
+\caption@hangindent=\dimen289
+)
+\c@ContinuedFloat=\count136
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mwe/mwe.sty
+Package: mwe 2012/05/15 v0.3 Package to support minimal working examples (MWE)
+
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count138
+\c@Blindtext=\count139
+\c@blind@countparstart=\count140
+\blind@countxx=\count141
+\blindtext@numBlindtext=\count142
+\blind@countyy=\count143
+\c@blindlist=\count144
+\c@blindlistlevel=\count145
+\c@blindlist@level=\count146
+\blind@listitem=\count147
+\c@blind@listcount=\count148
+\c@blind@levelcount=\count149
+\blind@mathformula=\count150
+\blind@Mathformula=\count151
+\c@blind@randomcount=\count152
+\c@blind@randommax=\count153
+\c@blind@pangramcount=\count154
+\c@blind@pangrammax=\count155
+))
+(/usr/share/texlive/texmf-dist/tex/latex/textpos/textpos.sty
+Package: textpos 2014/01/03 v1.7j
+
+Package: textpos 2014/01/03 1.7j, absolute positioning of text on the page
+\TP@textbox=\box73
+\TP@holdbox=\box74
+\TPHorizModule=\dimen290
+\TPVertModule=\dimen291
+\TP@margin=\dimen292
+\TP@absmargin=\dimen293
+Grid set 16 x 16 = 149.5548pt x 211.43953pt
+\TPboxrulesize=\dimen294
+\TP@ox=\dimen295
+\TP@oy=\dimen296
+\TP@tbargs=\toks30
+\TP@prevdepth=\dimen297
+TextBlockOrigin set to 0pt x 0pt
+)
 
 LaTeX Warning: Unused global option(s):
     [30pt].
@@ -856,38 +932,38 @@ LaTeX Warning: Unused global option(s):
 (./poster_Alice.aux)
 \openout1 = `poster_Alice.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 83.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count133
-\scratchdimen=\dimen283
-\scratchbox=\box73
-\nofMPsegments=\count134
-\nofMParguments=\count135
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count136
-\MPscratchDim=\dimen284
-\MPnumerator=\count137
-\makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count156
+\scratchdimen=\dimen298
+\scratchbox=\box75
+\nofMPsegments=\count157
+\nofMParguments=\count158
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count159
+\MPscratchDim=\dimen299
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
+\everyMPtoPDFconversion=\toks32
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -895,7 +971,7 @@ Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
@@ -937,40 +1013,40 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 69.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 83.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 83.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 83.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 83.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 83.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 69.
+(Font)              <17.28> on input line 83.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 69.
+(Font)              <12> on input line 83.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 69.
-\AtBeginShipoutBox=\box74
-Package hyperref Info: Link coloring ON on input line 69.
+(Font)              <10> on input line 83.
+\AtBeginShipoutBox=\box76
+Package hyperref Info: Link coloring ON on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -978,107 +1054,120 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count139
+\c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 69.
-LaTeX Info: Redefining \pageref on input line 69.
-LaTeX Info: Redefining \nameref on input line 69.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./poster_Alice.out) (./poster_Alice.out)
 \@outlinefile=\write5
 \openout5 = `poster_Alice.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no = in font nullfont!
 Missing character: There is no 1 in font nullfont!
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <61.92> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 71.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 85.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 71.
+(Font)              using `T1/lmss/bx/n' instead on input line 85.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <61.92> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 71.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 71.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 85.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 71.
+(Font)              <51.6> on input line 85.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 71.
+(Font)              <35.83> on input line 85.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 71.
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 95.
-
-LaTeX Font Info:    No file OMSlmss.fd. on input line 95.
-
+(Font)              <24.88> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 85.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 105
+.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 105.
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 95.
+(Font)              for symbol `textbullet' on input line 105.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <29.86> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
-<R7.png, id=35, 871.255pt x 646.415pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 105.
+<R7.png, id=31, 871.255pt x 646.415pt>
 File: R7.png Graphic file (type png)
  <use R7.png>
-Package pdftex.def Info: R7.png used on input line 95.
+Package pdftex.def Info: R7.png used on input line 105.
 (pdftex.def)             Requested size: 697.00496pt x 517.1327pt.
 
-<matetmet.png, id=37, 1464.47125pt x 675.52374pt>
-File: matetmet.png Graphic file (type png)
- <use matetmet.png>
-Package pdftex.def Info: matetmet.png used on input line 139.
-(pdftex.def)             Requested size: 1025.1229pt x 472.8634pt.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <29.86> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 139.
+<Rplot.pdf, id=33, 663.27798pt x 597.23125pt>
+File: Rplot.pdf Graphic file (type pdf)
+ <use Rplot.pdf>
+Package pdftex.def Info: Rplot.pdf used on input line 142.
+(pdftex.def)             Requested size: 652.1438pt x 587.2237pt.
+
+Overfull \hbox (326.0719pt too wide) in paragraph at lines 142--142
+[][] 
+ []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <29.86> on input line 153.
+(Font)              <29.86> on input line 142.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 142.
 
-<Cost_specialist.png, id=39, 927.465pt x 414.54875pt>
-File: Cost_specialist.png Graphic file (type png)
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <29.86> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 167.
 
-<use Cost_specialist.png>
-Package pdftex.def Info: Cost_specialist.png used on input line 168.
-(pdftex.def)             Requested size: 927.46274pt x 414.54773pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+<firstphuong.png, id=35, 1129.21875pt x 602.25pt>
+File: firstphuong.png Graphic file (type png)
+ <use firstphuong.png>
+Package pdftex.def Info: firstphuong.png used on input line 184.
+(pdftex.def)             Requested size: 903.37624pt x 481.80064pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 
  []
 
-<May2017_E64.pdf, id=40, 969.22098pt x 578.16pt>
+<May2017_E64.pdf, id=36, 969.22098pt x 578.16pt>
 File: May2017_E64.pdf Graphic file (type pdf)
  <use May2017_E64.pdf>
-Package pdftex.def Info: May2017_E64.pdf used on input line 187.
+Package pdftex.def Info: May2017_E64.pdf used on input line 203.
 (pdftex.def)             Requested size: 1066.14638pt x 635.97797pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 224.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 239.
 
-<Logos.png, id=41, 1228.59pt x 707.64375pt>
+<Logos.png, id=37, 1228.59pt x 707.64375pt>
 File: Logos.png Graphic file (type png)
  <use Logos.png>
-Package pdftex.def Info: Logos.png used on input line 238.
-(pdftex.def)             Requested size: 307.14674pt x 176.9105pt.
+Package pdftex.def Info: Logos.png used on input line 255.
+(pdftex.def)             Requested size: 430.01294pt x 247.67902pt.
 
-Overfull \hbox (221.78848pt too wide) in paragraph at lines 238--238
+Overfull \hbox (373.10744pt too wide) in paragraph at lines 255--255
 [][] 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./R7.png> <./matetmet.png>
- <./Cost_specialist.png> <./May2017_E64.pdf> <./Logos.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./R7.png> <./Rplot.pdf> <.
+/firstphuong.png (PNG copy)> <./May2017_E64.pdf
 
-(./poster_Alice.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+pdfTeX warning: /usr/bin/pdflatex (file ./May2017_E64.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+> <./Logos.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+ (./poster_Alice.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
 Package rerunfilecheck Info: File `poster_Alice.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1087,15 +1176,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21036 strings out of 493105
- 433395 string characters out of 6137073
- 562642 words of memory out of 5000000
- 24042 multiletter control sequences out of 15000+600000
- 93738 words of font info for 62 fonts, out of 8000000 for 9000
+ 22575 strings out of 493105
+ 459300 string characters out of 6137073
+ 690229 words of memory out of 5000000
+ 25552 multiletter control sequences out of 15000+600000
+ 103457 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,84p,795b,1256s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/s
+ 62i,10n,92p,795b,1332s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
 exmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
@@ -1105,10 +1194,10 @@ s/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.p
 fb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on poster_Alice.pdf (1 page, 2195921 bytes).
+Output written on poster_Alice.pdf (1 page, 2766910 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 9 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 10 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

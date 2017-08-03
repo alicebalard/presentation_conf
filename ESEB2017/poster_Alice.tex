@@ -41,18 +41,32 @@
 \usepackage{wrapfig}
 \usepackage{lmodern} %mix italic and bold
 \usepackage{hyperref}% for url
+\usepackage{authblk}
+\usepackage{graphicx} 
+\usepackage{caption}
+\usepackage{mwe}
+\usepackage[absolute]{textpos}
+
 
 % TITLE, AUTHORS, INSTITUTE
 % -------------------------
 
 \title{\textbf{Co-evolution of house mouse and an intracellular parasite, \textit{Eimeria} spp.}}
-\author{Alice Balard, Victor Jarquin, Francisca B\"ohning, Mert Dikmen, Stuart J.E. Baird, (D.T?),  Emanuel~Heitlinger}
+\author[1,2]{Alice~Balard}
+\author[1,2]{Victor~Jarquin}
+\author[1]{Francisca~B\"ohning}
+\author[1]{Thi~Phuong~Li}
+\author[3]{Stuart~J.E.~Baird}
+\author[4]{D.T?}
+\author[1,2]{Emanuel~Heitlinger}
+\affil[1]{\Large Ecology and Evolution of molecular Parasite-Host Interactions (HU/IZW), Leibniz Institute for Zoo and Wildlife Research (IZW) in the Forschungsverbund Berlin e.V. Alfred-Kowalke-Strasse 17, 10315 Berlin, Germany}
+\affil[2]{\Large Department of Molecular Parasitology, Humboldt University, Philippstrasse 13, 10115 Berlin, Germany}
+\affil[3]{\Large Department of Population Biology, Institute of Vertebrate Biology, ASCR, Brno and Studenec, Czech Republic\vspace{-6ex}% reduce space
+}
 
-\institute{Ecology and Evolution of molecular Parasite-Host Interactions (HU/IZW)
-  Humboldt University Berlin \& \\ Leibniz-Institut f{\"u}r Zoo- und Wildtierforschung
-  Berlin, Germany \\  
-Website: \texttt{\href{http://www.ecoevolpara.hu-berlin.de/}{http://www.ecoevolpara.hu-berlin.de/}},
-E-mail: \texttt{\href{mailto:alice.balard@fu-berlin.de}{alice.balard@fu-berlin.de}}}
+\makeatletter
+\def\maketitle{\AB@maketitle}
+\makeatother
 
 % THEME SETTING
 % -------------
@@ -86,12 +100,8 @@ E-mail: \texttt{\href{mailto:alice.balard@fu-berlin.de}{alice.balard@fu-berlin.d
         \begin{center}
           \includegraphics[scale=0.8]{R7.png}
         \end{center}
-        		\item Eimeria spp., obligate intracellular apicomplexan parasite. \textbf{Two major clades (A \& B) of Eimeria spp. identified (3 markers) in the mice of the hybrid zone} 
-		  (Jost 2016).
+        		\item Eimeria spp., obligate intracellular apicomplexan parasite. \textbf{Two major clades (A \& B)} of \textit{Eimeria} spp. identified (3 markers) in the mice of the hybrid zone (Jost 2016)
         \end{itemize}
-       
-
-        
 }
 
 % AIMS
@@ -101,57 +111,61 @@ E-mail: \texttt{\href{mailto:alice.balard@fu-berlin.de}{alice.balard@fu-berlin.d
 {
 	\begin{enumerate}
 	\item Investigating the \textbf{ vigor/resistance of hybrids of house mouse} to their parasite\\ \textit{Eimeria}~spp. using prevalence and intensity data for parasite strains throughout the\\ House Mouse Hybrid Zone.
-	\item Looking for evidence of \textbf{local adaptation} between the murine host and its Eimerian parasite (coevolution?)
+	\item Looking for evidence of \textbf{local adaptation} between the murine host and its Eimerian parasite
 	\end{enumerate}
 }
 
 
-% Mat&Met
+% Material \& Methods : Field study
 % -------
-\block{Material \& Methods}
+\block{Material \& Methods : Field study}
       {
-      
-      \begin{itemize}
-\item  Field sampling : 110 mice, in Brandenburg area (Germany)
-      
-      \begin{center}
-          \includegraphics[scale=0.7]{matetmet.png} %center that
-        \end{center}
-        
+\vfill
+\begin{minipage}{0.3\linewidth}
+    \includegraphics[width=2\linewidth]{Rplot.pdf}
+\end{minipage}
+%\hfil
+\hspace{11cm}
+\begin{minipage}{0.4\linewidth}
+ \begin{itemize}
+      \item{Annual sampling every September\\ N1 mice from 2015\\ N2 mice in 2016 \\Brandenburg area (Germany)}
+       \item{Oocyst counted in mice feces\\ All parasite strains genotyped using 3 markers, then assigned to an \\haplotype}
+       \end{itemize}
+\end{minipage}
 
-\item Cross infection pilote experiment :
+        \begin{itemize}
+     
+      \item Adaptation of the method of Stuart J.E. Baird (Baird \textit{et al.} 2012) : Maximum likelihood analysis explicitly linking parasite abundance to a gradient along the hybrid index (as a proxy of host heterozygosity), generalized linear model with negative binomial distribution \vspace{+1ex}
+      \textcolor{blue}{\[Parasite\ load \sim mouse\ heterozygosity\ level * parasite\ strain  \]}\vspace{-2ex}% reduce space
+      \item R package : \url{https://github.com/alicebalard/Parasite_Load}
+      \end{itemize}
+      }
 
-\begin{itemize}
-\item Host strains :
-\begin{enumerate}
-\item \textbf{\textit{Eimeria} haplotype A} laboratory strain \textit{Eimeria falciformis} REFFFFF
-\item \textbf{\textit{Eimeria} haplotype B} strain isolated in the wild 
-\end{enumerate}
-
-\item Parasite strains :
-\begin{enumerate}
-\item \textbf{WSB} Wild-derived inbred strain. Derived from wild \textit{Mus musculus domesticus}\\ Region of capture : Eastern Shore, Maryland
-\item \textbf{PWD} Wild-derived inbred strain. Derived from wild \textit{Mus musculus musculus}\\ Region of capture : near Prague, Czech Republic
-\item \textbf{WP} Hybrids between the 2 previous commercial strains
-\end{enumerate}
-\end{itemize}
-\end{itemize}
-}
-
-
-% Statistical model
+% Material \& Methods : Cross infection
 % -------
 
-\block{Statistical model : glm.hybrid}
-      { \textcolor{blue}{\[Parasite\ load \sim mouse\ heterozygosity\ level * parasite\ strain  \]}
-      	\begin{itemize}
-        \item Adaptation of the method of Stuart J.E. Baird (Baird \textit{et al.} 2012) : Maximum likelihood analysis explicitly linking parasite abundance to a gradient along the hybrid index (as a proxy of host heterozygosity), generalized linear model with negative binomial distribution
-        \item R package : \url{https://github.com/alicebalard/Parasite_Load}
-        
-        
-        \end{itemize}
+\block{Material \& Methods : Cross infection}
+      {Pilote experiment
+      \begin{itemize}
+      
+      \item Parasite strains :
+      
+      \begin{enumerate}
+      \item \textbf{\textit{Eimeria} haplotype A} laboratory strain \textit{Eimeria falciformis} REEEFF
+      \item \textbf{\textit{Eimeria} haplotype B} strain isolated in the wild 
+      \end{enumerate}
+      
+      \item Host strains :
+      
+      \begin{enumerate}
+      \item \textbf{WSB} Wild-derived inbred strain. Isolated from wild \textit{Mus musculus domesticus}\\ Region of capture : Eastern Shore, Maryland
+      \item \textbf{PWD} Wild-derived inbred strain. Isolated from wild \textit{Mus musculus musculus}\\ Region of capture : near Prague, Czech Republic
+      \item \textbf{WP} Hybrids between the 2 previous commercial strains
+      \end{enumerate}
+      
+      \end{itemize}
 }
-    
+
 % ------------------------
 % COLUMN 2 ---------------
 
@@ -161,9 +175,11 @@ E-mail: \texttt{\href{mailto:alice.balard@fu-berlin.de}{alice.balard@fu-berlin.d
 \block{Evidence (?) of hybrid vigor/resistance}
 {
 \begin{center}
-	\includegraphics[scale=1]{Cost_specialist.png}
+	\includegraphics[scale=0.8]{firstphuong.png}
 \end{center}
-description
+description\\
+glm.hybrid\\ 
+glm.nb
 
 }
 
@@ -173,9 +189,8 @@ description
 \block{Evidence of local adaptation}
 { Results of the infection experiment : 
   \begin{itemize}
-    \item \textit{Eimeria} strain haplotype A  killed wild-derived mice at the beginning of the shedding period, regardless of mouse strain --> MORE?
-    \item \textit{Eimeria} strain haplotype B has \textbf{lowest parasite shedding} in mice strains WSB compared to PWD, for a \textbf{highest relative weight loss} : evidence of \textbf{local adaptation}
-    \item Mice hybrids lost less weight and  were less infected than the pure strains\\ \textbf{Possible hybrid vigor} (limitation : unknow effect of heterosis)\\
+    \item \textit{Eimeria} strain haplotype B has \textbf{lowest parasite shedding} in mice strains WSB compared to PWD, for a \textbf{highest relative weight loss} : indication of \textbf{local adaptation}
+    \item Mice hybrids lost less weight and  were less infected than the pure strains\\ \textbf{Possible hybrid vigor} (limitation : unknow effect of general heterosis)\\
   \end{itemize}
 
   \begin{center}
@@ -184,19 +199,19 @@ description
   \end{center}
   
   some stats here!
+  OUR MODEL? +lm
 }
 
 \block{Perspective}
 {
   \begin{center}
   \begin{itemize}
-        \item Next cross infection experiment : verify our hypotheses (hybrid vigor, local adaptation), measure the effect of heterosis, add one parasite strains (another haplotype A, collected in the field)
+        \item Next cross infection experiment : verify our hypotheses (hybrid vigor, local adaptation), measure the effect of heterosis (within subspecies heterosis vs between subspecies)
+        \item Assess local adaptation in other parasite strains
         \item Analyse of divergence scenarios for \textit{Eimeria} spp. based on whole genomes and comparison of models of coalescence and cospeciations with their murine hosts (beyond the house mouse).
         \item Investigation of loci of coevolution, identifying parasite genes under divergent selection in the two house mouse subspecies. The coevolving loci corresponding on the host side will be investigated.
   \end{itemize}
 
-%  \adjustbox{trim={.0\width} {.52\height} {0.0\width} {.0\height},clip}%
-%		{\includegraphics[scale=1.4]{Figure_3.pdf}}
   \end{center}
 }
 
@@ -208,7 +223,7 @@ description
         \begin{small}
           
           \hangindent=2cm Baird \textit{et al.} (2012) Where Are the Wormy Mice? A Reexamination of Hybrid Parasitism in the European House Mouse Hybrid Zone
-           \textit{Evolution} 66 (9): 2757--72.
+           \textit{Evolution} 66 (9): 2757--72
 
           \hangindent=2cm Jost (2016) Improvement of Genetic Markers and Phylogenetics of Eimeria Spp. from House Mouse
           Edited by Emanuel Heitlinger. \textit{Humboldt University}
@@ -225,16 +240,18 @@ description
 
       % ACKNOWLEDGEMENTS
 % ----------------
-      \note[targetoffsetx=-15cm, targetoffsety=-8cm, width=25cm, innersep=1cm]
+      \note[targetoffsetx=-15cm, targetoffsety=-8cm, width=25cm, innersep=0cm]
 {
-    \begin{wrapfigure}{r}{3cm}	
-    \vspace{-23pt}
-	\includegraphics[scale=0.25]{Logos.png}
+    \begin{wrapfigure}{r}{2cm}	
+   \vspace{-55pt}
+   
+	\includegraphics[scale=0.35]{Logos.png}
 	
 	\end{wrapfigure}
-	\textbf{Funding:} This research has received funding 
+	\textbf{Funding :} This research has received funding 
 	from the DFG, and is part of a IZW/HU project.
-        A. Balard is part of the Dahlem Research School.
+        A. Balard is part of the Dahlem Research School\\
+        \textbf{Contact :} \textcolor{blue}{alice.balard@fu-berlin.de}
 }
 
 
