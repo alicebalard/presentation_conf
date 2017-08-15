@@ -49,15 +49,12 @@
 
 \usepackage{graphicx}
 
-\newcommand*\Twitter{\includegraphics[scale=0.1]{Twitter.png}}
-
 % TITLE, AUTHORS, INSTITUTE
 % -------------------------
+% Left logo
 
+\title{\parbox{\linewidth}{\centering \textbf{Parasites and the eukaryotic biome - \\diversity is associated  with social rank in spotted hyena}}}
 
-
-\title{\textbf{Parasites and the eukaryotic biome - diversity is
-    associated with social rank in spotted hyena}}
 \author[1,2,*]{Emanuel~Heitlinger} \author[3]{Susana~C~Fereira}
 \author[3]{Dagmar~Thierer} \author[3]{Heribert~Hofer}
 \author[3]{Marion~L~East}
@@ -71,7 +68,6 @@
   Research (IZW), Berlin}
   \affil[*]{\textbf{Correspondence:}
   \textcolor{blue} {emanuel.heitlinger@hu-berlin.de, Heitlinger@izw-berlin.de}, \textbf{Twitter: }\textcolor{blue}{@EHeitlinger} \vspace{-6ex}}
-
 
 
 \makeatletter
@@ -91,7 +87,9 @@
 % ----
 
 \begin{document}
+
 \maketitle
+
 \begin{columns}
 
 % ------------------------
@@ -107,15 +105,16 @@
   In the spotted hyena (\textit{Crocuta crocuta}), a highly
   social, female-dominated carnivore social status
   determines access to resources.\\
-  \vspace{1cm}
   \noindent
- \begin{minipage}{0.3\linewidth}                  
+  \hspace{1cm}
+  \begin{minipage}{0.5\linewidth}                  
    \begin{left}
-     \includegraphics[width=1.8\linewidth]{Hyena.png}
+     \includegraphics[width=1\linewidth]{Hyena.png}
    \end{left}
+   \\\textbf{Fig1:}  A young female spotted hyena with erected ``pseudo-penis''[1].
 \end{minipage}
 \hfill
-\begin{minipage}{0.4\linewidth}
+\begin{minipage}{0.5\linewidth}
 \\Predictions:
   \begin{itemize}
  \item{High species diversity is an index of ecosystem health, the
@@ -127,13 +126,6 @@
  \end{itemize}
 \end{minipage} 
 \hfill
-\\We therefor aimed to: 
-\begin{enumerate}
-\item Establish an amplicon sequencing approach to assess
-  intestinal eukaryotes (the eukaryome) comprehensively
-\item Determine the diversity and composition of both the
-  bacterial microbiome and eukaryome
-\end{enumerate}
 }
 \block{Methods}
       {
@@ -149,15 +141,19 @@
         \item{48 different amplicons (4 for bacterial 16S, 44 for
           eukaryote 18S) in a multi-amplicon sequencing approach}
         \item{Processed on a microfluidics PCR system (Fluidigm Access
-          Array)}
-        \item{Data processed using an amplified sequencing variant
-          (ASV) approach provided by the R package DADA2 [1] and is
-          available as an own R package [2].
+          Array\textsuperscript{\textregistered})}
+        \item{Data processing pipeline using amplified sequencing
+          variants (ASVs) [2] is available as an R package [3].}
         \end{itemize}
         \includegraphics[width=1\linewidth]{entropy_primers_norm_woName.png}
-        \textbf{Fig 1:} Amplicons used in this study in the context of
+        \textbf{Fig 2:} Amplicons used in this study in the context of
         entropy (evolutionary conservation and information content) of
-        the eukaryotic 18S gene} }
+        the eukaryotic 18S gene. Shannon entropy is displayed for the
+        Silva reference alignment [4] of all eukaryotes. Primers were
+        mapped against the same alignment. Positions along the gene
+        are expressed as mean length of sequences (excluding gaps) for
+        each column in the alignment.}
+      
       
 \block{Results: Multi-amplicon sequencing predicts coprological counts}
       {
@@ -168,7 +164,7 @@
         \end{minipage}
         \hfill
         \begin{minipage}{0.5\linewidth}
-          \textbf{Fig 2:} Predicting fecal egg or oocyst counts per g
+          \textbf{Fig 3:} Predicting fecal egg or oocyst counts per g
           feces from the number of ASV reads. (A) Ancylostoma FEC
           vs. sequence counts for the order Rhabditida. (B)
           Diphyllobothriidae FEC vs. sequence counts for the same
@@ -182,8 +178,9 @@
           representative micrograph depicting the egg or oocyst
           counted.\\
         \end{minipage}
-        $\Rightarrow$ Quantitative assessment of eukaryotes with high
-        sensitivity }
+        $\Rightarrow$ \textbf{Quantitative assessment of eukaryotes with high
+        sensitivity.}
+      }
 
 % ------------------------
 % COLUMN 2 ---------------
@@ -198,48 +195,46 @@
   \hfill
   \begin{minipage}{0.5\linewidth}
   
-    \textbf{Fig 3:} Bacterial genera richness, diversity and
-    microbiome composition in different age categories. (A) Box plots
-    depicting distributions observed counts of genera, diversity
-    (Chao1 index) and evenness (Pielou's J) estimates on rarefied
-    genera counts for juveniles and adults. $* = p < 0.05$ in exact
-    Mann-Whitney U tests. (B) NMDS ordination based on pairwise
-    Bray-Curtis dissimilarities partially separated juvenile from
-    adult. (C) Comparison of scores (for samples) and loadings (for
-    genera) from the first two axes of an optimized partial least
-    squares (PLS) model, demonstrating a clear separation of adult and
-    juvenile samples. Genera colored by phylum can be used to assess
-    the taxa contributing (PLS loading) to the differences underlying
-    this distinction.
+    \textbf{Fig 4:} Bacterial genera richness, diversity and
+    microbiome composition in different age categories. (A)
+    Distributions of observed rarefied genera counts, diversity (Chao1
+    index) and evenness (Pielou's J) for juveniles and adults. (B)
+    NMDS ordination based on pairwise Bray-Curtis dissimilarities
+    partially separate juveniles from adults. (C) Comparison of scores
+    (for samples) and loadings (for genera) from the first two axes of
+    a partial least squares (PLS) model, demonstrating a clear
+    separation of adults and juveniles. Genera colored by phylum can
+    be used to assess the taxa contributing (PLS loading) to the
+    differences underlying this distinction.  (D) Log2-fold change
+    inferred by generalized linear models for differences between
+    adults and juveniles for each genus with a false discovery rate
+    (FDR) $< 0.05$.  FDR is given below the dot for each genus.
+
   \end{minipage}
-  (D) Log2-fold change inferred by generalized linear models for
-  differences between adults and juveniles for each genus with a false
-  discovery rate (FDR) $< 0.05$.  FDR is given below the dot for each
-  genus color-coded for its respective phylum.
+  $\Rightarrow$ \textbf{Adult female hyenas have a bacterial microbiome which
+  is more diverse than and differs in composition from that of
+  juveniles.}
+  }
 
-  $\Rightarrow$ Adult female hyenas have a bacterial microbiome which is more
-  diverse than and differs in composition from that of juveniles.
-}
-
-\block{Results: A more diverse eukaryome in high-ranking than low-ranking hyenas} {
+\block{Results: Eukaryome} {
   \begin{minipage}{0.5\linewidth}                  
     \includegraphics[scale=0.45]{Figure4_man.png}
   \end{minipage}
   \hfill
   \begin{minipage}{0.5\linewidth}
-    \testbf{Fig 5:} Eukaryome diversity and composition in high ranking
-    vs. low ranking hyenas. (A) Estimates of richness, diversity and
-    evenness on rarefied ASV counts for high-ranking and low-ranking
-    individuals. (B) Counts for annotated ASV per genus are compared
-    for high vs. low ranking hyenas. $** = p < 0.01$ based on exact
-    Mann-Whitney U tests. (C) PLS scores (for samples) and PLS
-    loadings (for genera) are visualized on the single PLS axis,
-    demonstrating a separation of the majority of samples from
-    high-ranking individuals from samples from low-ranking animals.
+    \testbf{Fig 5:} Eukaryome diversity and composition in high
+    ranking vs. low ranking hyenas. (A) Estimates of richness,
+    diversity and evenness on rarefied ASV counts for high-ranking and
+    low-ranking individuals. (B) Counts for annotated ASV per genus
+    are compared for high vs. low ranking hyenas.(C) PLS scores (for
+    samples) and PLS loadings (for genera) are visualized on the
+    single PLS axis, demonstrating a separation of the majority of
+    samples from high-ranking individuals from samples from
+    low-ranking animals.  On the y-axis random scatter is introduced
+    for visualization.
   \end{minipage}
-  On the y-axis random scatter is introduced for visualization. The
-  underlying genera are color-coded for their respective phylum.
-}
+  $\Rightarrow$ \textbf{A more diverse eukaryome in high-ranking than
+    low-ranking hyenas.} }
 
 
 \block{Summary}
@@ -263,23 +258,33 @@
     Composition \textit{Front Cell Infect Microbiol. 7: 262.}}
 }
 
-% ----------
-
 \block{References}
       {
         \begin{small}
-          
-          \hangindent=2cm [1] Callahan \textit{et al.} (2016) DADA2:
-          High-resolution sample inference from Illumina amplicon data
-          \textit{Nature Methods} 13, 581--583\\
 
-          \hangindent=2cm [2] Heitlinger (2017). Derele/MultiAmplicon
+           \hangindent=2cm [1] Goymann and Hofer (2009) Mating
+           systems, social behaviour and hormones In: Animal
+           Behaviour: Evolution and mechanisms, Springer
+           \textit{pp.465-501}
+          
+          \hangindent=2cm [2] Callahan \textit{et al.} (2016) DADA2:
+          High-resolution sample inference from Illumina amplicon data
+          \textit{Nature Methods} 13, 581--583
+
+          \hangindent=2cm [3] Heitlinger (2017). Derele/MultiAmplicon
           version 0.01 [R - package]. \textit{Zenodo} Development
           version at https://github.com/derele/MultiAmplicon
+
+          \hangindent=2cm [4] Pruesse \textit{et al.} (2007) SILVA: a
+          comprehensive online resource for quality checked and
+          aligned ribosomal RNA sequence data compatible with
+          ARB. \textit{Nucleic Acids Research} 35:7188-7196
+
           
         \end{small}
       }
 
+% ----------
 
 \end{columns}
 
