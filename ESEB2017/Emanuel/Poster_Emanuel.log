@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  15 AUG 2017 11:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  15 AUG 2017 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1320,7 +1320,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  22565 strings out of 493013
  460070 string characters out of 6135682
- 696095 words of memory out of 5000000
+ 696099 words of memory out of 5000000
  25634 multiletter control sequences out of 15000+600000
  113394 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1335,7 +1335,7 @@ s/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
 1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></u
 sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1
 /public/lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Poster_Emanuel.pdf (1 page, 5921320 bytes).
+Output written on Poster_Emanuel.pdf (1 page, 5921329 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  60 compressed objects within 1 object stream
