@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  17 AUG 2017 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  17 AUG 2017 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1411,9 +1411,9 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 264.
 
 Underfull \hbox (badness 10000) in paragraph at lines 264--264
-[]\T1/lmss/m/n/20.74 [2] Heitlinger (2017). Derele/MultiAmplicon ver-sion 0.01 
-[R - pack-age]. \T1/lmss/m/sl/20.74 Zen-odo \T1/lmss/m/n/20.74 De-vel-op-ment v
-er-sion at
+[]\T1/lmss/m/n/20.74 [2] Heitlinger (2017). Mul-ti-Ampli-con ver-sion 0.01 [R -
+ pack-age]. \T1/lmss/m/sl/20.74 Zen-odo\T1/lmss/m/n/20.74 ; De-vel-op-ment ver-
+sion at
  []
 
 [1
@@ -1436,7 +1436,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  22565 strings out of 493013
  460070 string characters out of 6135682
- 691532 words of memory out of 5000000
+ 691523 words of memory out of 5000000
  25634 multiletter control sequences out of 15000+600000
  113394 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1451,7 +1451,7 @@ pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmsy10.pfb>
-Output written on Poster_Emanuel.pdf (1 page, 7950919 bytes).
+Output written on Poster_Emanuel.pdf (1 page, 7951017 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
