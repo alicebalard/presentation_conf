@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  17 AUG 2017 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  17 AUG 2017 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1400,6 +1400,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+Underfull \hbox (badness 1009) in paragraph at lines 228--228
+\T1/lmss/m/n/29.86 ing fe-males, both at the
+ []
+
+
 Overfull \hbox (6.23994pt too wide) in paragraph at lines 228--228
 []$[]$  $[]$
  []
@@ -1436,7 +1441,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  22565 strings out of 493013
  460070 string characters out of 6135682
- 691523 words of memory out of 5000000
+ 691521 words of memory out of 5000000
  25634 multiletter control sequences out of 15000+600000
  113394 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
