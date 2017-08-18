@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  14 AUG 2017 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.4.10)  18 AUG 2017 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,21 +925,21 @@ LaTeX Warning: Unused global option(s):
 (./Poster_Emanuel.aux)
 \openout1 = `Poster_Emanuel.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
-LaTeX Font Info:    ... okay on input line 93.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 93.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 89.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1008,40 +1008,40 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 93.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 89.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 89.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 93.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 89.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 93.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 89.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 93.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 89.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 93.
+(Font)              <17.28> on input line 89.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 93.
+(Font)              <12> on input line 89.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 93.
+(Font)              <10> on input line 89.
 \AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring ON on input line 93.
+Package hyperref Info: Link coloring ON on input line 89.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1051,9 +1051,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count161
 )
-LaTeX Info: Redefining \ref on input line 93.
-LaTeX Info: Redefining \pageref on input line 93.
-LaTeX Info: Redefining \nameref on input line 93.
+LaTeX Info: Redefining \ref on input line 89.
+LaTeX Info: Redefining \pageref on input line 89.
+LaTeX Info: Redefining \nameref on input line 89.
 
 (./Poster_Emanuel.out) (./Poster_Emanuel.out)
 \@outlinefile=\write5
@@ -1067,48 +1067,42 @@ Missing character: There is no 1 in font nullfont!
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <61.92> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 95.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 92.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 95.
-
-
-Overfull \hbox (547.86473pt too wide) in paragraph at lines 95--95
- [][] 
- []
+(Font)              using `T1/lmss/bx/n' instead on input line 92.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <51.6> on input line 95.
+(Font)              <61.92> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <35.83> on input line 95.
+(Font)              <43> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 95.
+(Font)              <29.86> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 95.
+(Font)              <51.6> on input line 92.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 95.
-
-Overfull \hbox (547.86473pt too wide) in paragraph at lines 95--95
- [][] 
- []
-
+(Font)              <35.83> on input line 92.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <24.88> on input line 92.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <20.74> on input line 92.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 92.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <29.86> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 137.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 130.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.137 }
+l.130 }
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <29.86> on input line 137.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    \let 
-l.137 }
+l.130 }
        
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -1117,16 +1111,16 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-<Hyena.png, id=31, 642.4pt x 428.60126pt>
+<Hyena.png, id=31, 1390.19376pt x 814.04124pt>
 File: Hyena.png Graphic file (type png)
  <use Hyena.png>
-Package pdftex.def Info: Hyena.png used on input line 137.
-(pdftex.def)             Requested size: 586.9304pt x 391.60387pt.
+Package pdftex.def Info: Hyena.png used on input line 130.
+(pdftex.def)             Requested size: 543.44765pt x 318.22008pt.
 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.137 }
+l.130 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1137,7 +1131,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.137 }
+l.130 }
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1146,7 +1140,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (263.2585pt too wide) in paragraph at lines 137--137
+Overfull \hbox (2.4pt too wide) in paragraph at lines 130--130
 []$[]$ 
  []
 
@@ -1157,73 +1151,53 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 }
+l.130 }
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 137
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 130
 .
-LaTeX Font Info:    No file OMSlmss.fd. on input line 137.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 130.
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 137.
+(Font)              for symbol `textbullet' on input line 130.
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 137--137
-\T1/lmss/m/n/29.86 nal biome of health-ier, so-cially
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
  []
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.160         the eukaryotic 18S gene} }
-                                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-<entropy_primers_norm_woName.png, id=32, 722.7pt x 352.1958pt>
-File: entropy_primers_norm_woName.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
 
-<use entropy_primers_norm_woName.png>
-Package pdftex.def Info: entropy_primers_norm_woName.png used on input line 160
-.
-(pdftex.def)             Requested size: 1086.89531pt x 529.73267pt.
+ []
 
-! Extra }, or forgotten \endgroup.
-<argument> ...content) of the eukaryotic 18S gene}
-                                                   \par \normalsize \@@par 
-l.160         the eukaryotic 18S gene} }
-                                        
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+
+Overfull \hbox (6.23994pt too wide) in paragraph at lines 130--130
+[]$  $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--130
+
+ []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.186         sensitivity }
-                           
+l.150       }
+             
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing delimiter (. inserted).
 <to be read again> 
                    \let 
-l.186         sensitivity }
-                           
+l.150       }
+             
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
 should probably delete the `{' by typing `1' now, so that
@@ -1231,17 +1205,17 @@ braces don't get unbalanced. Otherwise just proceed.
 Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
-<Figure2_man.png, id=34, 1042.1334pt x 1073.2095pt>
+<Figure2_man.png, id=32, 1042.1334pt x 1073.2095pt>
 File: Figure2_man.png Graphic file (type png)
  <use Figure2_man.png>
-Package pdftex.def Info: Figure2_man.png used on input line 186.
-(pdftex.def)             Requested size: 521.06543pt x 536.60344pt.
+Package pdftex.def Info: Figure2_man.png used on input line 150.
+(pdftex.def)             Requested size: 729.48842pt x 751.24153pt.
 
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.186         sensitivity }
-                           
+l.150       }
+             
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1251,8 +1225,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.186         sensitivity }
-                           
+l.150       }
+             
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1260,84 +1234,209 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 186--186
-\T1/lmss/m/n/29.86 Besnoitia, and Tox-o-plasma. (D) A large
+Underfull \hbox (badness 3623) in paragraph at lines 150--150
+[]\T1/lmss/m/n/29.86 Ribosomal se-quence vari-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 1173) in paragraph at lines 150--150
+\T1/lmss/m/n/29.86 ants (RSVs) pre-dict fe-cal
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 150--150
+\T1/lmss/m/n/29.86 An-cy-lostoma (Rhab-di-tida),
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 150--150
+\T1/lmss/m/n/29.86 (c and d) small and a
+ []
+
+
+Underfull \hbox (badness 7540) in paragraph at lines 150--150
+\T1/lmss/m/n/29.86 cidia (\T1/lmss/m/sl/29.86 Eime-ria\T1/lmss/m/n/29.86 , \T1/
+lmss/m/sl/29.86 Isospora\T1/lmss/m/n/29.86 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T1/lmss/m/sl/29.86 Besnoitia\T1/lmss/m/n/29.86 , and \T1/lmss/m/sl/29.86 Tox-o
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
 
 
-Overfull \hbox (6.23994pt too wide) in paragraph at lines 186--186
-[]$[]$  $[]$
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\OMS/lmsy/m/n/29.86 )$ \T1/lmss/bx/n/29.86 Quan-ti-ta-tive as-
  []
 
-<Figure3_man.png, id=35, 887.9574pt x 984.7992pt>
-File: Figure3_man.png Graphic file (type png)
- <use Figure3_man.png>
-Package pdftex.def Info: Figure3_man.png used on input line 222.
-(pdftex.def)             Requested size: 532.77855pt x 590.88408pt.
 
-Overfull \hbox (6.23994pt too wide) in paragraph at lines 222--222
-[]$[]$  $[]$
+Overfull \hbox (6.23994pt too wide) in paragraph at lines 150--150
+[]$[]$  $[]$ 
  []
 
-<Figure4_man.png, id=36, 1166.9196pt x 1023.3432pt>
-File: Figure4_man.png Graphic file (type png)
- <use Figure4_man.png>
-Package pdftex.def Info: Figure4_man.png used on input line 242.
-(pdftex.def)             Requested size: 525.10898pt x 460.50018pt.
+<entropy_primers_norm_woName.png, id=34, 722.7pt x 352.1958pt>
+File: entropy_primers_norm_woName.png Graphic file (type png)
 
-! Undefined control sequence.
-<argument> ... {minipage}{0.5\linewidth } \testbf 
-                                                  {Fig 5:} Eukaryome diversi...
-l.242 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<use entropy_primers_norm_woName.png>
+Package pdftex.def Info: entropy_primers_norm_woName.png used on input line 178
+.
+(pdftex.def)             Requested size: 1086.89531pt x 529.73267pt.
 
-
-Overfull \hbox (6.23994pt too wide) in paragraph at lines 242--242
-[]$[]$  $[]$
- []
-
-<summary.png, id=37, 1254.6875pt x 396.48125pt>
+<summary.png, id=35, 1254.6875pt x 396.48125pt>
 File: summary.png Graphic file (type png)
  <use summary.png>
-Package pdftex.def Info: summary.png used on input line 250.
+Package pdftex.def Info: summary.png used on input line 191.
 (pdftex.def)             Requested size: 1066.48943pt x 337.01064pt.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <29.86> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 264.
 
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 281.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.212           from that of juveniles.}  }
+                                           
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \let 
+l.212           from that of juveniles.}  }
+                                           
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+<Figure3_man.png, id=36, 832.3095pt x 434.5836pt>
+File: Figure3_man.png Graphic file (type png)
+ <use Figure3_man.png>
+Package pdftex.def Info: Figure3_man.png used on input line 212.
+(pdftex.def)             Requested size: 749.07162pt x 391.12163pt.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.212           from that of juveniles.}  }
+                                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.212           from that of juveniles.}  }
+                                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 212--212
+\T1/lmss/m/n/29.86 b) Scores (for sam-ples)
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 212--212
+\T1/lmss/m/n/29.86 (PLS) model demon-strate
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 212--212
+\T1/lmss/m/n/29.86 dif-fer-ences in mi-cro-biome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
+\T1/lmss/m/n/29.86 ju-ve-niles and high-light
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--281
-[]\T1/lmss/m/n/20.74 [2] Heitlinger (2017). Derele/MultiAmplicon ver-sion 0.01 
-[R - pack-age]. \T1/lmss/m/sl/20.74 Zen-odo \T1/lmss/m/n/20.74 De-vel-op-ment v
-er-sion at
+Overfull \hbox (6.23994pt too wide) in paragraph at lines 212--212
+[]$[]$  $[]$ 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212           from that of juveniles.}  }
+                                           
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<Figure4_man.png, id=37, 1166.9196pt x 1023.3432pt>
+File: Figure4_man.png Graphic file (type png)
+ <use Figure4_man.png>
+Package pdftex.def Info: Figure4_man.png used on input line 227.
+(pdftex.def)             Requested size: 781.83209pt x 685.63638pt.
+
+Overfull \hbox (24.50868pt too wide) in paragraph at lines 227--227
+[][] 
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 227--227
+\T1/lmss/m/n/29.86 pared to low rank-ing fe-
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 227--227
+\T1/lmss/m/n/29.86 scores (for sam-ples) and
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 227--227
+\T1/lmss/m/n/29.86 light dif-fer-ently abun-dant
+ []
+
+
+Overfull \hbox (6.23994pt too wide) in paragraph at lines 227--227
+[]$[]$  $[]$
+ []
+
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <29.86> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 242.
+
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 263.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
+[]\T1/lmss/m/n/20.74 [2] Heitlinger (2017). Mul-ti-Ampli-con ver-sion 0.01 [R -
+ pack-age]. \T1/lmss/m/sl/20.74 Zen-odo\T1/lmss/m/n/20.74 ; De-vel-op-ment ver-
+sion at
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Hyena.png (PNG copy)> <.
-/entropy_primers_norm_woName.png> <./Figure2_man.png> <./Figure3_man.png> <./Fi
-gure4_man.png> <./summary.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Hyena.png> <./Figure2_ma
+n.png> <./entropy_primers_norm_woName.png> <./summary.png> <./Figure3_man.png> 
+<./Figure4_man.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 270.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 270.
  (./Poster_Emanuel.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 270.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 270.
 Package rerunfilecheck Info: File `Poster_Emanuel.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1346,27 +1445,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22555 strings out of 493013
- 459885 string characters out of 6135682
- 694683 words of memory out of 5000000
- 25623 multiletter control sequences out of 15000+600000
- 103105 words of font info for 67 fonts, out of 8000000 for 9000
+ 22564 strings out of 493013
+ 460064 string characters out of 6135682
+ 692512 words of memory out of 5000000
+ 25633 multiletter control sequences out of 15000+600000
+ 113394 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,92p,816b,1281s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,92p,816b,1287s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathit.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
-2.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmsy10.pfb>
-Output written on Poster_Emanuel.pdf (1 page, 5910310 bytes).
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.
+pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmsy10.pfb>
+Output written on Poster_Emanuel.pdf (1 page, 7950738 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
