@@ -56,6 +56,7 @@
 \author[1,2]{Victor~Jarquin}
 \author[2]{Francisca~B\"ohning}
 \author[2]{Thi~Phuong~Li}
+\author[3]{Jaroslav~Pi\`alek}
 \author[3]{Stuart~J.E.~Baird}
 \author[1,2]{Emanuel~Heitlinger}
 \affil[1]{\Large Ecology and Evolution of molecular Parasite-Host Interactions (HU/IZW), Leibniz Institute for Zoo and Wildlife Research (IZW) in the Forschungsverbund Berlin e.V. Alfred-Kowalke-Strasse 17, 10315 Berlin, Germany}
@@ -76,6 +77,27 @@
 \usebackgroundstyle{Empty}
 \usetitlestyle{Empty}
 
+% Increase caption size
+\usepackage{blindtext}
+\makeatletter
+\renewenvironment{tikzfigure}[1][]{
+  \def \rememberparameter{#1}
+  \vspace{10pt}
+  \refstepcounter{figurecounter}
+  \begin{center}
+  }{
+    \ifx\rememberparameter\@empty
+    \else %nothing
+    \\[5pt]
+    {\large Fig.~\thefigurecounter: \rememberparameter}
+    \fi
+  \end{center}
+}
+\makeatother
+
+
+
+
 
 % HEAD
 % ----
@@ -95,12 +117,16 @@
 \block{Context}
 {
 	\begin{itemize}
-		\item House Mouse Hybrid Zone, 20km wide, formed by hybrids of \textit{Mus musculus domesticus} and \textit{Mus musculus musculus}. After 500,000 years in isolation, secondary contact 5000 years ago (Machol\'{a}n \textit{et al.} 2012)
-
-        \begin{center}
-          \includegraphics[scale=0.6]{R7.png}
-        \end{center}
-        		\item \textit{Eimeria} spp., obligate intracellular apicomplexan parasite. \textbf{Two major clades (A \& B)} of \textit{Eimeria} spp. identified (3 markers) in the mice of the hybrid zone (Jost 2016)
+	
+	  		\item Parasite model: \textit{Eimeria} spp., obligate intracellular apicomplexan parasite. \textbf{Two major clades (A \& B)} of \textit{Eimeria} spp. identified (3 markers) in the mice of the hybrid zone
+	  		 \item Host model: \textit{Mus musculus domesticus}, \textit{Mus musculus musculus}, and hybrids
+	
+\begin{tikzfigure}[Migration of sub-species of \textit{Mus musculus} until formation of the House Mouse Hybrid Zone (\textbf{HMHZ}), 20km wide, formed by hybrids of the two sub-species. After 500,000 years in isolation, secondary contact 5000 years ago (Machol\'{a}n \textit{et al.} 2012)
+]
+\includegraphics[scale=0.6]{R7.png}
+\end{tikzfigure}
+ 
+       
         \end{itemize}
 }
 
@@ -116,33 +142,36 @@
 }
 
 
-% Material \& Methods : Field study
+% Material \& Methods: Field study
 % -------
-\block{Material \& Methods : Field study}
+\block{Material \& Methods: Field study}
 {
- Annual sampling every September. Oocyst counted in mice feces\\ All parasite strains genotyped using 3 markers, then assigned to an haplotype \includegraphics[scale=1]{map.pdf}
+\begin{tikzfigure}[Annual sampling every September. Oocyst counted in mice feces. Mice assigned to a hybrid index based on \textit{M.m.domesticus}/\textit{M.m.musculus} alleles ratio (Machol\'{a}n \textit{et al.} (2011) )]
+\includegraphics[scale=1]{map.pdf}
+\end{tikzfigure}
+
     }
 
-% Material \& Methods : Cross infection
+% Material \& Methods: Cross infection
 % -------
 
-\block{Material \& Methods : Cross infection}
-      {Pilote experiment
+\block{Material \& Methods: Cross infection}
+      {
       \begin{itemize}
       
-      \item Parasite strains :
+      \item Parasite strains:
       
       \begin{enumerate}
-      \item \textbf{\textit{Eimeria} haplotype A} laboratory strain \textit{Eimeria falciformis} (Heitlinger \textit{et al.} 2014)
-      \item \textbf{\textit{Eimeria} haplotype B} strain isolated in the wild 
+      \item \textbf{\textit{Eimeria} A} laboratory strain \textit{Eimeria falciformis} (Heitlinger \textit{et al.} 2014)
+      \item \textbf{\textit{Eimeria} B} strain isolated in the wild 
       \end{enumerate}
       
-      \item Host strains :
+      \item Host strains:
       
       \begin{enumerate}
-      \item \textbf{WSB} Wild-derived inbred strain. Derived from wild \textit{Mus musculus domesticus}\\ Region of capture : Eastern Shore, Maryland
-      \item \textbf{PWD} Wild-derived inbred strain. Derived from wild \textit{Mus musculus musculus}\\ Region of capture : near Prague, Czech Republic
-      \item \textbf{WP} Hybrids between the two previous commercial strains
+      \item \textbf{WSB} Wild-derived inbred strain. Derived from wild \textit{Mus musculus domesticus}\\ Region of capture: Eastern Shore, Maryland
+      \item \textbf{PWD} Wild-derived inbred strain. Derived from wild \textit{Mus musculus musculus}\\ Region of capture: near Prague, Czech Republic
+      \item \textbf{WP} Hybrids between the two previous strains
       \end{enumerate}
       
       \end{itemize}
@@ -151,15 +180,15 @@
 
       % ACKNOWLEDGEMENTS
 % ----------------
-      \note[targetoffsetx=-15cm, targetoffsety=-13cm, width=25cm, innersep=0cm]
+      \note[targetoffsetx=-13cm, targetoffsety=-13cm, width=28cm, innersep=0cm]
 {
-    \begin{wrapfigure}{r}{2cm}	
-   \vspace{-55pt}
+    \begin{wrapfigure}{r}{3cm}	
+   \vspace{-90pt}
    
-	\includegraphics[scale=0.38]{Logos.png}
+	\includegraphics[scale=0.30]{Logos.png}
 	
 	\end{wrapfigure}
-	\textbf{Funding :} This research has received funding 
+	\textbf{Funding:} This research has received funding 
 	from the DFG, and is part of a IZW/HU project\\
         A. Balard is part of the Dahlem Research School
 }
@@ -170,40 +199,41 @@
 
 \column{0.5}
 
-
 \block{Exploring hybrid vigor/resistance in the wild}
 {
 
 \vfill
-  \item Adaptation of the method of Stuart J.E. Baird (Baird \textit{et al.} 2012) : \\ Maximum likelihood analysis explicitly linking parasite abundance to a gradient along the hybrid index as a proxy of host heterozygosity \\Generalized linear model with negative binomial distribution : \textbf{glm.hybrid} \vspace{+1ex}
-   \begin{center}
-  \includegraphics[scale=0.5]{model.png}
+  \item Adaptation of the method of Stuart J.E. Baird (Baird \textit{et al.} 2012): \\ Maximum likelihood analysis explicitly linking parasite abundance to a gradient along the hybrid index as a proxy of host heterozygosity  \vspace{+1ex}
+  
+\begin{tikzfigure}[Generalized linear model with negative binomial distribution: \textbf{glm.hybrid} applied to simulated data, two groups both presenting a hybrid vigor]
+\includegraphics[scale=0.5]{model.png}
+\end{tikzfigure}
 
-  \end{center}
+      \item R package under development: \url{https://github.com/alicebalard/Parasite_Load}
+\textbf{Goal: using our glm.hybrid model to assess the existence of hybrid vigor/resistance, taking into account the parasite strains}
       \textcolor{blue}{\[Parasite\ load \sim mouse\ heterozygosity\ level * parasite\ strain  \]}\vspace{-2ex}% reduce space
-      \item R package under development : \url{https://github.com/alicebalard/Parasite_Load}
-\textbf{Goal : using our glm.hybrid model to assess the existence of hybrid vigor/resistance, taking into account the parasite strains}
+
 }
 
 % PART II 
 % -------
 
-\block{Evidence of local adaptation}
-{ Results of the infection experiment : 
+\block{Results of the infection experiment}
+{ 
   \begin{itemize}
-    \item \textit{Eimeria} strain haplotype B has \textbf{lower parasite shedding} but are more harmed as they have a \textbf{lower relative weight retained} in mice strains WSB compared to PWD : indication of \textbf{local adaptation}
-    \item Mice hybrids lost less weight and  were less infected than the pure strains\\ \textbf{Possible hybrid vigor} (limitation : unknow effect of general heterosis)\\
+    \item \textit{Eimeria} B has \textbf{lower parasite shedding} and \textbf{lower relative weight retained} in mice strains WSB compared to PWD 
+    \item \textit{Eimeria} B has \textbf{lower parasite shedding} and \textbf{lower relative weight retained} in mice hybrids than in the pure strains
   \end{itemize}
 
-  \begin{center}
-  \includegraphics[scale=1.1]{May2017_E64.pdf}
+\begin{tikzfigure}[First indications of \textbf{local adaptation} and \textbf{hybrid vigor}]
+\includegraphics[scale=1]{May2017_E64.pdf}
+\end{tikzfigure}
 
-  \end{center}
 }
 
 \block{Perspective}
 {
-  Next cross infection experiment : 
+  Next cross infection experiment: 
 %  \begin{center}
     \begin{itemize}
         \item Test our hypotheses of hybrid vigor (within subspecies heterosis vs between subspecies)
@@ -211,7 +241,7 @@
   \end{itemize}
 
  % \end{center}
- Field data :
+ Field data:
     \begin{itemize}
         \item Obtain enough data (Sept. 2017) to test our hypotheses of hybrid vigor and local adaptation in the wild
   \end{itemize}
@@ -226,13 +256,11 @@
       {
         \begin{small}
           
-          \hangindent=2cm Baird \textit{et al.} (2012) Where Are the Wormy Mice? A Reexamination of Hybrid Parasitism in the European House Mouse Hybrid Zone
-           \textit{Evolution} 66 (9): 2757--72
+          \hangindent=2cm Baird \textit{et al.} (2012) Where Are the Wormy Mice? A Reexamination of Hybrid Parasitism in the European House Mouse Hybrid Zone \textit{Evolution} 66 (9): 2757--72
            
-          \hangindent=2cm Heitlinger \textit{et al.} (2014) The genome of Eimeria falciformis-reduction and specialization in a single host apicomplexan              parasite.\\ \textit{BMC genomics} 15 (1), 696
-
-          \hangindent=2cm Jost (2016) Improvement of Genetic Markers and Phylogenetics of Eimeria Spp. from House Mouse
-          Edited by Emanuel Heitlinger. \textit{Humboldt University}
+          \hangindent=2cm Heitlinger \textit{et al.} (2014) The genome of Eimeria falciformis-reduction and specialization in a single host apicomplexan parasite \\ \textit{BMC genomics} 15 (1), 696
+          
+          \hangindent=2cm Machol\'{a}n \textit{et al.} (2011) Assessing Multilocus Introgression Patterns: A Case Study on the Mouse X Chromosome in Central Europe \textit{Evolution} 65: 1428--1446
 
           \hangindent=2cm Machol\'{a}n \textit{et al.} (2012) Evolution of the House Mouse
           \textit{Cambridge University Press}
