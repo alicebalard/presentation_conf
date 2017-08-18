@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  18 AUG 2017 11:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2017.3.9)  18 AUG 2017 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1116,45 +1116,40 @@ File: map.pdf Graphic file (type pdf)
 Package pdftex.def Info: map.pdf used on input line 153.
 (pdftex.def)             Requested size: 963.59766pt x 597.22978pt.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <29.86> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 178.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 175.
 
 
 <Logos.png, id=34, 1228.59pt x 707.64375pt>
 File: Logos.png Graphic file (type png)
  <use Logos.png>
-Package pdftex.def Info: Logos.png used on input line 194.
+Package pdftex.def Info: Logos.png used on input line 191.
 (pdftex.def)             Requested size: 368.57985pt x 212.29475pt.
 
-Overfull \hbox (283.22159pt too wide) in paragraph at lines 194--194
+Overfull \hbox (283.22159pt too wide) in paragraph at lines 191--191
 [][] 
  []
 
 <model.png, id=35, 1100.11pt x 805.0075pt>
 File: model.png Graphic file (type png)
  <use model.png>
-Package pdftex.def Info: model.png used on input line 216.
+Package pdftex.def Info: model.png used on input line 213.
 (pdftex.def)             Requested size: 550.05367pt x 402.50278pt.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 216.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 213.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <29.86> on input line 216.
-
-Underfull \hbox (badness 2277) in paragraph at lines 216--216
-\T1/lmss/bx/n/29.86 Goal: us-ing our glm.hybrid model to as-sess the ex-is-tenc
-e of hy-brid
- []
+(Font)              <29.86> on input line 213.
 
 <May2017_E64.pdf, id=37, 883.40028pt x 536.0025pt>
 File: May2017_E64.pdf Graphic file (type pdf)
  <use May2017_E64.pdf>
-Package pdftex.def Info: May2017_E64.pdf used on input line 232.
+Package pdftex.def Info: May2017_E64.pdf used on input line 229.
 (pdftex.def)             Requested size: 883.39812pt x 536.00119pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <20.74> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 271.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
 
 [1
 
@@ -1164,11 +1159,11 @@ odel.png> <./May2017_E64.pdf
 pdfTeX warning: /usr/bin/pdflatex (file ./May2017_E64.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
 > <./Logos.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
  (./poster_Alice.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 276.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `poster_Alice.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1177,9 +1172,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 22579 strings out of 493105
- 459303 string characters out of 6137073
- 689585 words of memory out of 5000000
+ 22577 strings out of 493105
+ 459291 string characters out of 6137073
+ 689415 words of memory out of 5000000
  25552 multiletter control sequences out of 15000+600000
  106225 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1195,10 +1190,10 @@ s/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.
 pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmtt12.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.p
 fb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on poster_Alice.pdf (1 page, 2273373 bytes).
+Output written on poster_Alice.pdf (1 page, 2272972 bytes).
 PDF statistics:
- 215 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 12 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 
