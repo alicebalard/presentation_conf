@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.1.16)  9 APR 2019 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2019.1.16)  9 APR 2019 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -572,7 +572,11 @@ File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
 \notelinewidth=\dimen289
 
 
-Package tikzposter Warning: Unknown Option 30pt. on input line 204.
+Package tikzposter Warning: Unknown Option 24pt. on input line 204.
+
+
+Package tikzposter Warning: Unknown Option blocktitlewidthratio=0.5. on input l
+ine 204.
 
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
@@ -691,6 +695,49 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@loff=\dimen309
 \@vwid@roff=\dimen310
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen311
+\WF@size=\dimen312
+\c@WF@wrappedlines=\count121
+\WF@box=\box72
+\WF@everypar=\toks29
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
 
@@ -742,19 +789,18 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen311
-\Hy@linkcounter=\count121
-\Hy@pagecounter=\count122
+\@linkdim=\dimen313
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count123
+\Hy@SavedSpaceFactor=\count124
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4362.
 Package hyperref Info: Hyper figures OFF on input line 4486.
 Package hyperref Info: Link nesting OFF on input line 4491.
 Package hyperref Info: Hyper index ON on input line 4494.
@@ -762,37 +808,37 @@ Package hyperref Info: Plain pages OFF on input line 4501.
 Package hyperref Info: Backreferencing OFF on input line 4506.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count124
+\c@Hy@tempcnt=\count125
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen312
-\Fld@menulength=\count125
-\Field@Width=\dimen313
-\Fld@charsize=\dimen314
+\XeTeXLinkMargin=\dimen314
+\Fld@menulength=\count126
+\Field@Width=\dimen315
+\Fld@charsize=\dimen316
 Package hyperref Info: Hyper figures OFF on input line 6342.
 Package hyperref Info: Link nesting OFF on input line 6347.
 Package hyperref Info: Hyper index ON on input line 6350.
 Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring ON on input line 6360.
+Package hyperref Info: Link coloring OFF on input line 6362.
 Package hyperref Info: Link coloring with OCG OFF on input line 6367.
 Package hyperref Info: PDF/A mode OFF on input line 6372.
 LaTeX Info: Redefining \ref on input line 6412.
 LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count126
-\c@Item=\count127
-\c@Hfootnote=\count128
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count129
-\c@bookmark@seq@number=\count130
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -800,49 +846,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip46
-)
-(/usr/share/texlive/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-\wrapoverhang=\dimen315
-\WF@size=\dimen316
-\c@WF@wrappedlines=\count131
-\WF@box=\box72
-\WF@everypar=\toks29
-Package: wrapfig 2003/01/31  v 3.6
-)
-(/usr/share/texmf/tex/latex/lm/lmodern.sty
-Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
-LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
@@ -979,151 +982,6 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \mult@nat@firstbox=\box99
 \colbreak@box=\box100
 \mc@col@check@num=\count163
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kantlipsum/kantlipsum.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2016/11/21 v6760 L3 programming layer (loader) 
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2016/11/21 v6760 L3 programming layer (code)
-L3 Module: l3bootstrap 2016/06/13 v6596 L3 Bootstrap code
-L3 Module: l3names 2016/10/13 v6722 L3 Namespace for primitives
-L3 Module: l3basics 2016/09/01 v6696 L3 Basic definitions
-L3 Module: l3expan 2016/08/19 v6684 L3 Argument expansion
-L3 Module: l3tl 2016/08/19 v6692 L3 Token lists
-L3 Module: l3str 2016/08/19 v6692 L3 Strings
-L3 Module: l3seq 2016/08/19 v6685 L3 Sequences and stacks
-L3 Module: l3int 2016/09/07 v6700 L3 Integers
-\c_max_int=\count164
-\l_tmpa_int=\count165
-\l_tmpb_int=\count166
-\g_tmpa_int=\count167
-\g_tmpb_int=\count168
-L3 Module: l3quark 2016/08/19 v6685 L3 Quarks
-L3 Module: l3prg 2016/08/18 v6679 L3 Control structures
-\g__prg_map_int=\count169
-L3 Module: l3clist 2016/08/19 v6685 L3 Comma separated lists
-L3 Module: l3token 2016/09/01 v6695 L3 Experimental token manipulation
-L3 Module: l3prop 2016/08/19 v6685 L3 Property lists
-L3 Module: l3msg 2016/08/19 v6691 L3 Messages
-L3 Module: l3file 2016/08/19 v6685 L3 File and I/O operations
-\l_iow_line_count_int=\count170
-\l__iow_target_count_int=\count171
-\l__iow_current_line_int=\count172
-\l__iow_current_word_int=\count173
-\l__iow_current_indentation_int=\count174
-L3 Module: l3skip 2016/08/19 v6692 L3 Dimensions and skips
-\c_zero_dim=\dimen341
-\c_max_dim=\dimen342
-\l_tmpa_dim=\dimen343
-\l_tmpb_dim=\dimen344
-\g_tmpa_dim=\dimen345
-\g_tmpb_dim=\dimen346
-\c_zero_skip=\skip51
-\c_max_skip=\skip52
-\l_tmpa_skip=\skip53
-\l_tmpb_skip=\skip54
-\g_tmpa_skip=\skip55
-\g_tmpb_skip=\skip56
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-L3 Module: l3keys 2016/09/21 v6711 L3 Key-value interfaces
-\l_keys_choice_int=\count175
-L3 Module: l3fp 2016/11/21 v6761 L3 Floating points
-\c__fp_leading_shift_int=\count176
-\c__fp_middle_shift_int=\count177
-\c__fp_trailing_shift_int=\count178
-\c__fp_big_leading_shift_int=\count179
-\c__fp_big_middle_shift_int=\count180
-\c__fp_big_trailing_shift_int=\count181
-\c__fp_Bigg_leading_shift_int=\count182
-\c__fp_Bigg_middle_shift_int=\count183
-\c__fp_Bigg_trailing_shift_int=\count184
-L3 Module: l3box 2016/08/19 v6685 L3 Experimental boxes
-\c_empty_box=\box101
-\l_tmpa_box=\box102
-\l_tmpb_box=\box103
-\g_tmpa_box=\box104
-\g_tmpb_box=\box105
-L3 Module: l3coffins 2016/08/19 v6685 L3 Coffin code layer
-\l__coffin_internal_box=\box106
-\l__coffin_internal_dim=\dimen347
-\l__coffin_offset_x_dim=\dimen348
-\l__coffin_offset_y_dim=\dimen349
-\l__coffin_x_dim=\dimen350
-\l__coffin_y_dim=\dimen351
-\l__coffin_x_prime_dim=\dimen352
-\l__coffin_y_prime_dim=\dimen353
-\c_empty_coffin=\box107
-\l__coffin_aligned_coffin=\box108
-\l__coffin_aligned_internal_coffin=\box109
-\l_tmpa_coffin=\box110
-\l_tmpb_coffin=\box111
-\l__coffin_display_coffin=\box112
-\l__coffin_display_coord_coffin=\box113
-\l__coffin_display_pole_coffin=\box114
-\l__coffin_display_offset_dim=\dimen354
-\l__coffin_display_x_dim=\dimen355
-\l__coffin_display_y_dim=\dimen356
-L3 Module: l3color 2016/06/13 v6596 L3 Experimental color support
-L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
-L3 Module: l3candidates 2016/08/19 v6688 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen357
-\l__box_bottom_dim=\dimen358
-\l__box_left_dim=\dimen359
-\l__box_right_dim=\dimen360
-\l__box_top_new_dim=\dimen361
-\l__box_bottom_new_dim=\dimen362
-\l__box_left_new_dim=\dimen363
-\l__box_right_new_dim=\dimen364
-\l__box_internal_box=\box115
-\l__coffin_bounding_shift_dim=\dimen365
-\l__coffin_left_corner_dim=\dimen366
-\l__coffin_right_corner_dim=\dimen367
-\l__coffin_bottom_corner_dim=\dimen368
-\l__coffin_top_corner_dim=\dimen369
-\l__coffin_scaled_total_height_dim=\dimen370
-\l__coffin_scaled_width_dim=\dimen371
-L3 Module: l3luatex 2016/08/18 v6679 L3 Experimental LuaTeX-specific functions
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
-File: l3pdfmode.def 2016/08/18 v6679 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count185
-\l__driver_tmp_box=\box116
-))
-Package: kantlipsum 2012/10/14 v0.6 Dummy text in Kantian style
-
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2016/11/21 v6760 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count186
-\l__xparse_m_args_int=\count187
-\l__xparse_mandatory_args_int=\count188
-\l__xparse_processor_int=\count189
-\l__xparse_v_nesting_int=\count190
-)
-\l_kgl_start_int=\count191
-\l_kgl_end_int=\count192
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \kant with sig. 's>{\SplitArgument {1}{-}}O{1-7}' on line
-. 86.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \kantdef with sig. 'mm' on line 101.
-.................................................
-.................................................
-. kantlipsum info: "how-many"
-. 
-. The package provides paragraphs 1 to 164. Values outside this range will be
-. ignored.
-.................................................
 )
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ix-name.def
 File: ix-name.def 2016/05/16 v1.11 Name list (inputenx)
@@ -1446,47 +1304,46 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 )
-Package selinput Info: Encoding `utf8' selected on input line 54.
+Package selinput Info: Encoding `utf8' selected on input line 27.
 
 
 LaTeX Warning: Unused global option(s):
-    [30pt].
+    [24pt,blocktitlewidthratio=0.5].
 
 (./poster.aux)
 \openout1 = `poster.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 114.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen372
-\scratchbox=\box117
-\nofMPsegments=\count194
-\nofMParguments=\count195
+\scratchcounter=\count164
+\scratchdimen=\dimen341
+\scratchbox=\box101
+\nofMPsegments=\count165
+\nofMParguments=\count166
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen373
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
+\MPscratchCnt=\count167
+\MPscratchDim=\dimen342
+\MPnumerator=\count168
+\makeMPintoPDFobject=\count169
 \everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1539,42 +1396,40 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 114.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 114.
-
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 68.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 114.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 68.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 114
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 68.
+
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 114
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 68.
+
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <17.28> on input line 114.
+(Font)              <17.28> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 114.
+(Font)              <12> on input line 68.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 114.
-\AtBeginShipoutBox=\box118
-Package hyperref Info: Link coloring ON on input line 114.
+(Font)              <10> on input line 68.
+\AtBeginShipoutBox=\box102
+Package hyperref Info: Link coloring OFF on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1582,11 +1437,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count199
+\c@section@level=\count170
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./poster.out) (./poster.out)
 \@outlinefile=\write5
@@ -1600,72 +1455,70 @@ Missing character: There is no 1 in font nullfont!
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <61.92> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 116.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 70.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
-(Font)              using `T1/lmss/bx/n' instead on input line 116.
+(Font)              using `T1/lmss/bx/n' instead on input line 70.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <61.92> on input line 116.
+(Font)              <61.92> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <43> on input line 116.
+(Font)              <43> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <29.86> on input line 116.
+(Font)              <29.86> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <51.6> on input line 116.
+(Font)              <35.83> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <35.83> on input line 116.
+(Font)              <24.88> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <24.88> on input line 116.
+(Font)              <20.74> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20.74> on input line 116.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 116.
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 132
-.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 132.
+(Font)              <14.4> on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 85.
+
+LaTeX Font Info:    No file OMSlmss.fd. on input line 85.
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 132.
+(Font)              for symbol `textbullet' on input line 85.
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <29.86> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 132.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 85.
 
 Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 151.
+(multicol)                Going to balance anyway on input line 104.
 
 <Figure1.pdf, id=31, 1702.86188pt x 817.80525pt>
 File: Figure1.pdf Graphic file (type pdf)
  <use Figure1.pdf>
-Package pdftex.def Info: Figure1.pdf used on input line 151.
+Package pdftex.def Info: Figure1.pdf used on input line 104.
 (pdftex.def)             Requested size: 851.42886pt x 408.90163pt.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <43> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 176.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 128.
 
 
 
 Package multicol Warning: multicols* inside a box does not make sense.
-(multicol)                Going to balance anyway on input line 176.
+(multicol)                Going to balance anyway on input line 128.
 
 <Figure2.pdf, id=32, 867.23994pt x 701.85706pt>
 File: Figure2.pdf Graphic file (type pdf)
  <use Figure2.pdf>
-Package pdftex.def Info: Figure2.pdf used on input line 176.
+Package pdftex.def Info: Figure2.pdf used on input line 128.
 (pdftex.def)             Requested size: 780.50876pt x 631.66553pt.
 
 <Figure3.pdf, id=33, 867.24pt x 722.7pt>
 File: Figure3.pdf Graphic file (type pdf)
  <use Figure3.pdf>
-Package pdftex.def Info: Figure3.pdf used on input line 176.
+Package pdftex.def Info: Figure3.pdf used on input line 128.
 (pdftex.def)             Requested size: 780.5088pt x 650.42398pt.
 
-<Logo.png, id=34, 455.7025pt x 282.05376pt>
-File: Logo.png Graphic file (type png)
- <use Logo.png>
-Package pdftex.def Info: Logo.png used on input line 201.
-(pdftex.def)             Requested size: 364.56248pt x 225.6433pt.
+<AllLogos.png, id=34, 652.4375pt x 263.98625pt>
+File: AllLogos.png Graphic file (type png)
+ <use AllLogos.png>
+Package pdftex.def Info: AllLogos.png used on input line 153.
+(pdftex.def)             Requested size: 521.9507pt x 211.18927pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figure1.pdf> <./Figure2.
@@ -1677,12 +1530,12 @@ pdfTeX warning: /usr/bin/pdflatex (file ./Figure2.pdf): PDF inclusion: multiple
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figure3.pdf): PDF inclusion: multiple
  pdfs with page group included in a single page
-> <./Logo.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+> <./AllLogos.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 157.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 157.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 157.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 157.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1691,13 +1544,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30920 strings out of 493013
- 620651 string characters out of 6135682
- 1140657 words of memory out of 5000000
- 33936 multiletter control sequences out of 15000+600000
- 104770 words of font info for 71 fonts, out of 8000000 for 9000
+ 23899 strings out of 493013
+ 477239 string characters out of 6135682
+ 701287 words of memory out of 5000000
+ 26937 multiletter control sequences out of 15000+600000
+ 101146 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,10n,92p,10408b,1318s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,10n,92p,789b,1327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
@@ -1705,7 +1558,7 @@ xmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 ss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf
 /fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lms
 so17.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on poster.pdf (1 page, 2590427 bytes).
+Output written on poster.pdf (1 page, 2625266 bytes).
 PDF statistics:
  14126 PDF objects out of 15390 (max. 8388607)
  9350 compressed objects within 94 object streams
