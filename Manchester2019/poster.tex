@@ -1,6 +1,6 @@
-\documentclass[24pt, a0paper, portrait, margin=0mm, innermargin=10mm,
-               blockverticalspace=15mm, blocktitlewidthratio=0.5, colspace=10mm, 
-               subcolspace=8mm]{tikzposter} 
+\documentclass[24pt, a0paper, portrait, margin=5mm, innermargin=5mm,
+               blockverticalspace=10mm, blocktitlewidthratio=0.5, colspace=10mm, 
+               subcolspace=10mm]{tikzposter} 
 
 % Change font     
 \renewcommand{\familydefault}{\sfdefault}
@@ -21,6 +21,8 @@
 \usepackage[absolute]{textpos}
 \usepackage{selinput}
 \usepackage{multicol}
+\usepackage{tikz}
+
 % \usepackage{anyfontsize} %increase overall font size
 \SelectInputMappings{%
   Lcaron={Ľ}
@@ -31,7 +33,7 @@
 % TITLE, AUTHORS, INSTITUTE
 % -------------------------
 
-\title{\textbf{\parbox{\linewidth}{\centering Reduced Eimeria and pinworms loads in hybrid mice of the European house mouse hybrid zone}}}
+\title{\textbf{\parbox{\linewidth}{\centering Reduced \textit{Eimeria} and pinworms loads in hybrid mice of the European house mouse hybrid zone}}}
 
 \author[1,2]{\Large Alice~Balard}
 \author[1,2]{Victor~Hugo~Jarqu\'{i}n-D\'{i}az}
@@ -79,7 +81,7 @@
 	  		\item \textit{Eimeria} spp., obligate intracellular parasite (Apicomplexa: Coccidia). \textbf{High impact on host health expected}
 	  		\item Pinworms (\textit{Aspiruluris tetraptera} and \textit{Syphacia obvelata}). \textbf{Low impact on host health expected}
 	    \end{itemize}
-	  \item Host model: \textit{Mus musculus domesticus}, \textit{Mus musculus musculus} and their hybrids	
+	  \item Host model: \textit{Mus musculus domesticus}, \textit{M. m. musculus} and their hybrids	
 	  \item Aim of the study: \textbf{Investigating hybrid susceptibility/resistance of house mice to parasites presenting different pathogenicity, using prevalence and intensity data in a new transect of the European house mouse hybrid zone}
   \end{itemize}
 }	
@@ -91,16 +93,17 @@
 \block{Material \& Methods}{
   \begin{multicols*}{2}
     \begin{itemize}
- \item Sampling 660 mice over 4 years; Host genotyping (4-14 diagnostic markers) on a 0 to 1 scale (50/50 hybrids = 0.5)
+ \item Sampling 660 mice over 4 years; Host genotyping (4-14 diagnostic markers) on a 0 to 1 scale (equal admixture hybrids = 0.5)
  \item \textit{Eimeria} load estimated by quantitative PCR 
- \item Pinworm (\textit{Aspiculuris tetraptera} and \textit{Syphacia obvelata}) load estimated by count
+ \item Pinworm load estimated by count
  \item Modellisation of parasite load along hybridization index, test hybrid effect by maximum likelihood 
  \item Logistic regression presence/absence of parasite in direction of the hybrid zone center
- \item Body condition (residuals body length/body weight) between infected/non infected + along gradient of hybridicity
+ \item Body condition = residuals body length/body weight. Modellisation of body condition along hybridization index, test hybrid effect by maximum likelihood, test difference between infected/non-infected 
       \end{itemize}
-    \begin{tikzfigure}[Map of sub species separation in our sampling area (Berlin-Brandenburg, Germany)]
-            \includegraphics[scale=0.5]{Figure1.pdf}
-    \end{tikzfigure}  \end{multicols*}
+    \begin{tikzfigure}[]
+               \includegraphics[scale=0.5]{Figure1.pdf}
+    \end{tikzfigure}
+    \end{multicols*}
 }
 
 % Results: parasite load
@@ -110,28 +113,52 @@
       {
       \begin{multicols*}{2}
       
-      \begin{tikzfigure}[Eimeria]
-        \includegraphics[scale=0.9]{Figure2.pdf}
-      \end{tikzfigure}
+      \begin{multicols*}{2}
+\Large \centering \textit{Eimeria}
+      \begin{tikzfigure}[]
+        \includegraphics[scale=0.7]{Figure2.pdf}
+      \end{tikzfigure} \vfill\null \columnbreak
 
-      \begin{tikzfigure}[Pinworms]
-        \includegraphics[scale=0.9]{Figure3.pdf}
+
+\Large \centering Pinworms
+      \begin{tikzfigure}[]
+        \includegraphics[scale=0.7]{Figure3.pdf}
+      \end{tikzfigure} 
+
+\end{multicols*}
+
+\begin{itemize}
+\item Equal parasite prevalence along the hybrid index
+\item Statistically significant lower parasite load in the center of the hybrid zone
+\item No indication of differential body condition between infected/non-infected / along hybrid gradient
+\end{itemize}
+\vfill\null \columnbreak
+      
+
+      
+\Large \centering Body condition
+      \begin{tikzfigure}[]
+        \includegraphics[scale=0.7]{Figure4.pdf}
       \end{tikzfigure}
 
       \end{multicols*}
-(a) Maps of all individuals (b) Predicted probability of infection when approaching the hybrid zone center (c) Maps of positive individuals (d) Prediction of parasite intensity along the hybrid index \newline
-males (green)/females (orange)
-
-\begin{itemize}
-\item No indication of differential body condition between infected/non infected: no evidence of different impacts on hybrid vs. parental hosts health
-\end{itemize}
+      
+%       \begin{multicols*}{2}
+% 
+% \begin{itemize}
+% \item Equal parasite prevalence along the hybrid index
+% \item Statistically significant lower parasite load in the center of the hybrid zone
+% \item No indication of differential body condition between infected/non-infected / along hybrid gradient
+% \end{itemize} \vfill\null \columnbreak
+% 
+% \end{multicols*}
 }
 
 \block{Conclusion}
 {
 
 \begin{itemize}
-  \item Increased resistance of hybrid mice compared to parental strains for both lower pathogenic parasite (pinworms) and high pathogenic one (Eimeria)
+  \item Increased resistance of hybrid mice compared to parental strains for both lower pathogenic parasite (pinworms) and high pathogenic one (\textit{Eimeria})
   \item Control for density troughs: no evidence of a lower parasite prevalence in the centre of the hybrid zone (exclude external ecological epidemiological factors)
   \item \textbf{Independance} of hybrid resistance from the parasite pathogenicity level
   
@@ -144,7 +171,7 @@ males (green)/females (orange)
 
 \begin{columns} 
   \column{0.7} \block{References}{
-Balard \textit{et al.} (unpublished) Reduced Eimeria and pinworms loads in hybrid mice of the European house mouse hybrid zone \newline
+Balard \textit{et al.} (unpublished) Reduced \textit{Eimeria} and pinworms loads in hybrid mice of the European house mouse hybrid zone \newline
 R package used for modelling: Balard, A., and E. Heitlinger. 2019. Alicebalard/parasiteLoad DOI: 10.5281/zenodo.2535547
   }
   \column{0.3} \block{}{
