@@ -1,6 +1,6 @@
-\documentclass[24pt, a0paper, portrait, margin=10mm, innermargin=5mm,
-               blockverticalspace=0mm, blocktitlewidthratio=0.5, colspace=5mm, 
-               subcolspace=5mm]{tikzposter} 
+\documentclass[24pt, a0paper, portrait, margin=5mm, innermargin=0mm,
+               blockverticalspace=0mm, blocktitlewidthratio=0.5, colspace=10mm, 
+               subcolspace=0mm]{tikzposter} 
 
 % Change font     
 \renewcommand{\familydefault}{\sfdefault}
@@ -28,6 +28,7 @@
   Lcaron={Ľ}
 }
 
+\definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
 \definecolor{calpolypomonagreen}{rgb}{0.12, 0.3, 0.17}
 
 % TITLE, AUTHORS, INSTITUTE
@@ -50,7 +51,7 @@
 \affil[2]{\large Leibniz Institute for Zoo and Wildlife Research, Berlin, Germany}
 \affil[3]{\large Research Facility Studenec, Institute of Vertebrate Biology, Czech Academy of Sciences, Czech Republic}
 \affil[4]{\large Laboratory of Mammalian Evolutionary Genetics, Institute of Animal Physiology and Genetics, Czech Academy of Sciences, Czech Republic}
-\affil[*]{\textcolor{yellow}{contact: alice.cam.balard@gmail.com}\vspace{-2ex}% reduce space
+\affil[*]{\textcolor{black}{contact: alice.cam.balard@gmail.com}\vspace{-4ex}% reduce space
 }
 
 \makeatletter
@@ -60,106 +61,124 @@
 % THEME SETTING
 % -------------
 \usetheme{Simple}
+\colorlet{titlebgcolor}{applegreen}
+\colorlet{titlefgcolor}{white}
+\colorlet{blocktitlebgcolor}{calpolypomonagreen}
+\colorlet{blocktitlefgcolor}{applegreen}
 
-\colorlet{titlebgcolor}{calpolypomonagreen}
-\colorlet{blocktitlefgcolor}{calpolypomonagreen}
+\colorlet{blocktitlebodycolor}{red}
+
 
 
 % HEAD
 % ----
 
 \begin{document}
-\maketitle
+\maketitle[linewidth = 2mm]
 
 % Context
 % ----
 
-\block{Testing parasite resistance in \textit{Mus musculus domesticus}, \textit{M. m. musculus} and their hybrids	
-}
-{\begin{itemize}
+\block{Are hybrid mice more or less susceptible to parasites infection?}
+{\Large \begin{itemize}
 	   \item Parasite models: 
 	    \begin{itemize}
 	  		\item \textit{Eimeria} spp., obligate intracellular parasite (Apicomplexa: Coccidia). \textbf{High impact on host health expected}
-	  		\item Pinworms (\textit{Aspiruluris tetraptera} and \textit{Syphacia obvelata}). \textbf{Low impact on host health expected}
+	  		\item Pinworms \textit{Aspiruluris tetraptera} and \textit{Syphacia obvelata} (Nematoda: Oxyurida). \textbf{Low impact on host health expected}
 	    \end{itemize}
-	  \item Aim of the study: \textbf{Investigating hybrid susceptibility/resistance of house mice to parasites presenting different pathogenicity, using prevalence and intensity data in a new transect of the European house mouse hybrid zone}
+	  \item Host model: \textit{Mus musculus domesticus}, \textit{M. m. musculus} and their hybrids
   \end{itemize}
 }	
 
 % MATANDMET
 % ----
 
-\begin{columns} 
-  \column{0.7} \block{Material \& Methods}{
-    \begin{itemize}
-     \item Sampling 660 mice over 4 years; Host genotyping (4-14 diagnostic markers) on a 0 to 1 scale (equal admixture hybrids = 0.5)
-     \item \textit{Eimeria} load estimated by quantitative PCR
-     \item Pinworm load estimated by count
-     \item Modellisation of parasite load along hybridization index, test hybrid effect by maximum likelihood
-     \item Logistic regression presence/absence of parasite in direction of the hybrid zone center
-     \item Body condition = residuals body length/body weight. Modellisation of body condition along hybridization index, test hybrid effect by maximum likelihood, test difference between infected/non-infected
-      \end{itemize}
-  }
+\begin{columns}
   \column{0.3} \block{}{
   
     \begin{tikzfigure}[]
                \includegraphics[scale=0.7]{Figure1.pdf}
     \end{tikzfigure}
     }
+  \column{0.7} \block{How and where did we do that?}{\Large
+    \begin{itemize}
+     \item Sampling 660 mice over 4 years in a new transect of the European house mouse hybrid zone
+     \item Host genotyping (4-14 diagnostic markers) on a 0 to 1 scale (equal admixture hybrids = 0.5)
+     \item \textit{Eimeria} intensity estimated by quantitative PCR, pinworm intensity by count
+     \item Modelling of parasite intensity along hybridization index, test hybrid effect by maximum likelihood
+     \item Logistic regression presence/absence of parasite in direction of the hybrid zone centre
+     \item Body condition = residuals body length/body weight. Modelling of body condition along hybridization index, test hybrid effect by maximum likelihood, test difference between infected/non-infected
+      \end{itemize}
+  }
+  
 \end{columns}
 
-% Results: parasite load
+% Results: parasite intensity
 % -------
 
 % Text and figure Inside the Block 
-\block{\textit{Eimeria} spp. and pinworm loads are lower in hybrids than in parental mice}{
-\begin{minipage}[t]{0.4\linewidth} 
-\Large \centering \textit{Eimeria} \begin{tikzfigure}[] \includegraphics[scale = 1]{Figure2.pdf}
+
+\begin{columns}\column{0.75}
+
+\block{\textit{Eimeria} spp. and pinworm intensities are lower in hybrids than in parental mice}{
+\begin{minipage}[t]{0.5\linewidth}
+\Large \centering \textit{Eimeria} \begin{tikzfigure}[] \includegraphics[scale = 0.9]{Figure2.pdf}
   \end{tikzfigure}
-\end{minipage}% 
-\begin{adjustbox}{valign=t} 
-\begin{minipage}[t]{0.4\linewidth} 
-\Large \centering Pinworms \begin{tikzfigure}[] \includegraphics[scale = 1]{Figure3.pdf}
+\end{minipage}%
+\begin{adjustbox}{valign=t}
+\begin{minipage}[t]{0.5\linewidth}
+\Large \centering Pinworms \begin{tikzfigure}[] \includegraphics[scale = 0.9]{Figure3.pdf}
   \end{tikzfigure}
-\end{minipage} 
+\end{minipage}
 \end{adjustbox}
-\begin{adjustbox}{valign=t} 
-\begin{minipage}[t]{0.2\linewidth} 
-\Large \centering Mouse body condition \begin{tikzfigure}[] \includegraphics[scale = 0.65]{Figure4.pdf}
+
+}
+
+\column{0.25}\block{}{
+\LARGE \centering \textcolor{applegreen}{\textbf{Mouse body condition}} \begin{tikzfigure}[] \includegraphics[scale = 0.65]{Figure4.pdf}
   \end{tikzfigure}
-\end{minipage} 
-\end{adjustbox} \\
+}
+\end{columns}
 
+\block[bodyoffsety=5cm,titleoffsety=5cm]{}
+{  % here increase space
 \begin{itemize}
-\item Similar parasite prevalence along the hybrid index
-\item Statistically significant lower parasite load in the center of the hybrid zone
-\item No indication of differential body condition between infected/non-infected / along hybrid gradient
-\end{itemize}
-
-} 
-
-\block{Conclusion}
-{
-\begin{itemize}
-  \item Increased resistance of hybrid mice compared to parental strains for both lower pathogenic parasite (pinworms) and high pathogenic one (\textit{Eimeria})
-  \item Control for density troughs: no evidence of a lower parasite prevalence in the centre of the hybrid zone (exclude external ecological epidemiological factors)
-  \item Independance of hybrid resistance from the parasite pathogenicity level
+  \item \Large{Lower intensity of both lowly (pinworms) and highly (\textit{Eimeria}) pathogenic parasites in hybrid compared to parental mice}
+  \item No indication of lower prevalence in the centre of the hybrid zone
+  \item No indication of differential impact of infection on body condition along hybrid gradient
   
 \end{itemize}
 }
 
-% REFERENCES
-% ----------
 
 \begin{columns} 
-  \column{0.8} \block{References}{
+  \column{0.8} 
+% PERSPECTIVE
+% ----------
+\block{What does this mean?}{\Large
+
+\begin{itemize}
+  \item Independence of hybrid resistance from the parasite pathogenicity level
+  \item Intrinsic components of the host-parasite interaction, instead of ecological and epidemiological factors (e.g. host density troughs), explain intensity reduction in the absence of prevalence reduction
+  \item Impact of parasite infection on host health in hybrid zones remains an open question. Differences in host health could contribute as one component to the overall fitness of hybrids
+  \item Change to a parasitological perspective: impact of host hybridization on parasites is obvious
+\end{itemize}
+}
+ % REFERENCES
+% ----------
+  \block{References}{
 Balard \textit{et al.} (unpublished) Reduced \textit{Eimeria} and pinworms loads in hybrid mice of the European house mouse hybrid zone \newline
 R package used for modelling: Balard, A., and E. Heitlinger. 2019. Alicebalard/parasiteLoad DOI: 10.5281/zenodo.2535547
   }
-  \column{0.2} \block{}{
+
+\column{.2}
+   \block[]{}{\LARGE \centering
+    \textcolor{applegreen}{\textbf{Funding}}\vspace{-2ex}
     \begin{tikzfigure}[]
-      \includegraphics[scale=0.5]{AllLogos.png}
-    \end{tikzfigure}}
+    \includegraphics[scale=1]{acknowledgement.png}
+   \end{tikzfigure}}
+   
+   
 \end{columns}
 
 % ----------------
