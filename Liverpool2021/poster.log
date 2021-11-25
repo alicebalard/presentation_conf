@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.6.7)  25 NOV 2021 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2020.6.7)  25 NOV 2021 15:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1677,12 +1677,17 @@ File: fig/BCIoffspring_pretty.pdf Graphic file (type pdf)
 <use fig/BCIoffspring_pretty.pdf>
 Package pdftex.def Info: fig/BCIoffspring_pretty.pdf  used on input line 133.
 (pdftex.def)             Requested size: 552.82814pt x 590.10219pt.
-<fig/clusterALLCpG_offsprings_pretty.pdf, id=36, 1093.13435pt x 515.86562pt>
+
+Overfull \hbox (45.65765pt too wide) in paragraph at lines 133--133
+ [] 
+ []
+
+<fig/clusterALLCpG_offsprings_pretty.pdf, id=36, 1171.42404pt x 463.03859pt>
 File: fig/clusterALLCpG_offsprings_pretty.pdf Graphic file (type pdf)
 <use fig/clusterALLCpG_offsprings_pretty.pdf>
 Package pdftex.def Info: fig/clusterALLCpG_offsprings_pretty.pdf  used on input
  line 140.
-(pdftex.def)             Requested size: 1421.07454pt x 670.62521pt.
+(pdftex.def)             Requested size: 1522.8511pt x 601.95009pt.
 <fig/logo--en.pdf, id=37, 101.91544pt x 36.98216pt>
 File: fig/logo--en.pdf Graphic file (type pdf)
 <use fig/logo--en.pdf>
@@ -1735,10 +1740,10 @@ are/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public
 /texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmsso17.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/sha
 re/texmf/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on poster.pdf (1 page, 1015965 bytes).
+Output written on poster.pdf (1 page, 1014433 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  12 named destinations out of 1000 (max. 500000)
  139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
