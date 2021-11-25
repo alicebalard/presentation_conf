@@ -31,22 +31,27 @@
   Lcaron={Ľ}
 }
 
-\definecolor{amethyst}{rgb}{0.6, 0.4, 0.8}
 \definecolor{babyblue}{rgb}{0.54, 0.81, 0.94}
+% colors for 4 offspring groups
+\definecolor{myyellow}{RGB}{255,230,128}
+\definecolor{myorange}{RGB}{255,102,0}
+\definecolor{myblue}{RGB}{170,204,255}
+\definecolor{mypurple}{RGB}{170,0,212}
+
 
 % TITLE, AUTHORS, INSTITUTE
 % -------------------------
 
-\title{\textbf{\parbox{\linewidth}{\centering Methylation inheritance in three-spined sticklebacks (\textit{Gasterosteus aculeatus}) in response to parasite infection}}}
+\title{\textbf{\parbox{\linewidth}{\centering Parasite infection alters methylation inheritance in the three-spined stickleback}}}
 
 \author{\Large Alice~Balard\textsuperscript{1,*}, Kostas~Sagonas\textsuperscript{2}, Joshka~Kaufmann\textsuperscript{3}, Christophe~Eizaguirre\textsuperscript{1}}
 
 \institute{\large \textsuperscript{1}School of Biological and Behavioural Sciences, Queen Mary University of London, UK; \textsuperscript{2}Faculty of Biosciences and Aquaculture, Nord University, Norway; \textsuperscript{1}University College Cork, Ireland \& Marine Institute, Newport, Ireland; \textsuperscript{*}Corresponding author: a.balard@qmul.ac.uk; Twitter: @alice\_balard; @EizaguirreLab}\vspace{-4ex}% reduce space
 
 
-\titlegraphic{
-\includegraphics[width=15cm]{fig/qm-logo-white.pdf}
-}
+%\titlegraphic{
+%\includegraphics[width=15cm]{fig/qm-logo-white.pdf}
+%}
 
 \makeatletter
 % improve affiliations: 1 line
@@ -89,12 +94,12 @@
 \maketitle[linewidth = 1mm]
 
 % add fish picture next to title block
-\node[anchor=west] at (TP@title.west) {\includegraphics[width=13cm]{fig/stickpic.png}};
+\node[anchor=west] at (TP@title.west) {\includegraphics[width=15cm]{fig/fishFlockL.png}};
 
 % Context
 % ----
 \block{Background}
-{\Large Parasite pressure influences the evolution of resistance and tolerance mechanisms in their hosts. In a two-generation infection experiment of three-spined stickleback (\textit{Gasterosteus aculeatus}) by the nematode \textit{Camallanus lacustris}, paternal infection, despite imposing a \textbf{cost} on the next generation, also presented \textbf{benefits for offspring’s tolerance}\textsuperscript{1}. The methylation pattern was shown to differ between infected and control parents\textsuperscript{2}.\\ \textbf{Aim: Understanding the role and mechanisms of phenotypic plasticity within and across generations, focusing on DNA methylation. Which of the DNA methylations linked to parasite infection can be transmitted to the next generation?}
+{\Large Parasites influence the evolution of resistance and tolerance mechanisms in their hosts. Infection experiment using three-spined stickleback fish (\textit{Gasterosteus aculeatus}) by the nematode \textit{Camallanus lacustris} showed that paternal infection were associated with both cost and benefit for offspring tolerance\textsuperscript{1}. We speculated DNA methylation was an underlying mechanism of these phenotypic differences between infected and uninfected fish\textsuperscript{2}.\\ \textbf{Aim: Understanding the mechanisms of phenotypic plasticity within and across generations, focusing on DNA methylation. Identifying which of the DNA methylations linked to parasite infection can be inherited by the next generation.}
 }	
 
 
@@ -112,8 +117,8 @@
     
   \column{0.6} \block{Material \& methods}{\Large
     \begin{enumerate}
-      \item \textbf{Experimental design:} \textbf{G0 generation} from natural lake population -> \textbf{G1 generation} of full-sib fish families. In vitro mating of G1 males and G1 gravid female from another family serving as egg donor, repeated in brother pairs within each male family (1 from G1 “treatment” group and 1 from G1 “control” group) -> \textbf{G2}. Infection of G1 \& G2 with \textit{C. lacustris} larvae through copepod ingestion (Fig.1)
-      \item \textbf{Data processing:} Methylome sequencing: Reduced Representation Bisulfite Sequencing (RRBS) single-end reads of 100bp long, Illumina HiSeq 2500. Alignment on a European gynogen genome\textsuperscript{3} and methylation call by BSBolt. Downstream analyses by Methylkit.
+      \item \textbf{Experimental design:} \textbf{G0 generation} from natural lake population -> \textbf{G1 generation} of full-sib fish families. In vitro fertilisation of G1 gravid female serving as egg donor with G1 male from another family, repeated in brother pairs within each male family (1 from G1 “treatment” group and 1 from G1 “control” group) -> \textbf{G2} (Fig.1). Infection of G1 \& G2 with \textit{C. lacustris} larvae through copepod ingestion 
+      \item \textbf{Data processing:} Methylome sequencing: Reduced Representation Bisulfite Sequencing (RRBS) single-end reads of 100bp long, Illumina HiSeq 2500. Alignment on a European gynogen genome\textsuperscript{3} and methylation call with BSBolt. Downstream analyses with Methylkit.
     \end{enumerate}
   }
   
@@ -142,11 +147,11 @@
 
 % second row: text
 \block{}{
-\Large \textbf{Paternal treatment affects body condition} (BC): infected offspring from non infected father show a decrease in BC after infection; this drop is absent in infected fish from infected father (Fig.2). This confirms on our data subset the results of Kaufmann et al.\textsuperscript{1} 
+\Large \textbf{Paternal treatment affects body condition}: infected offspring from non infected fathers show a decrease in body condition after infection; this drop is absent in infected offspring from infected fathers (Fig.2)\textsuperscript{1} 
 }
 
 \block{}{
-\Large\textbf{Offspring methylomes cluster by family and paternal treatment}: within family subgroups, the paternal treatments seems to play a stronger role in clustering than the treatment of offspring itself (Fig.3).
+\Large\textbf{Offspring methylomes cluster by family and paternal treatment}: within family subgroups, the paternal treatments seem to play a stronger role in clustering than the treatment of offspring itself (Fig.3)
 }
 
 % PERSPECTIVE
@@ -157,8 +162,8 @@
   \item Compare Differentially Methylated Sites (DMS), hypo and hypermethylation, between offspring groups:
 
     \begin{enumerate}
-      \item \textbf{Tests of parental effect:} \newline comparison of (\colorbox{yellow}{G1 non infected-G2 non infected} vs \colorbox{babyblue}{G1 infected-G2 non infected}), and (\colorbox{orange}{G1 non infected-G2 infected} vs \colorbox{amethyst}{G1 infected-G2 infected})
-      \item \textbf{Tests of offspring exposure:} \newline comparison of (\colorbox{yellow}{G1 non infected-G2 non infected} vs \colorbox{orange}{G1 non infected-G2 infected}) and (\colorbox{babyblue}{G1 infected-G2 non infected} vs \colorbox{amethyst}{G1 infected-G2 infected})
+      \item \textbf{Tests of parental effect:} \newline comparisons of (\colorbox{myyellow}{G1 non infected-G2 non infected} vs \colorbox{myblue}{G1 infected-G2 non infected}), and (\colorbox{myorange}{G1 non infected-G2 infected} vs \colorbox{mypurple}{G1 infected-G2 infected})
+      \item \textbf{Tests of offspring exposure:} \newline comparisons of (\colorbox{myyellow}{G1 non infected-G2 non infected} vs \colorbox{myorange}{G1 non infected-G2 infected}) and (\colorbox{myblue}{G1 infected-G2 non infected} vs \colorbox{mypurple}{G1 infected-G2 infected})
     \end{enumerate}
   
   \item Identification of genes and genes networks (method: WGCNA) involved
@@ -179,7 +184,7 @@
 % FUNDING
 % ----------
 \column{.2}
-   \block[]{}{\LARGE \centering \vspace{-4ex}
+   \block[]{}{\LARGE \centering %\vspace{-3ex}
     \textbf{Funding}
     \begin{tikzfigure}[]
     \includegraphics[scale=3.5]{fig/logo--en.pdf}
