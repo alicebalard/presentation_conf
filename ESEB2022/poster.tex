@@ -62,8 +62,10 @@
 % -------------------------
 \begin{document}
 \maketitle[titletoblockverticalspace=0mm]
-% % add fish picture next to title block
+% add fish picture next to title block
 \node[anchor=west] at (TP@title.west) {\includegraphics[width=10cm]{fig/fishFlockL.png}};
+% add my picture next to title block
+\node[anchor=east] at (TP@title.east) {\includegraphics[width=8cm]{fig/portrait.png}};
 
 -----------------
 % AUTHORS BLOCK
@@ -73,7 +75,7 @@
 % \vspace{-15em}
 \block{}{
 \begin{center}
-\LARGE \textbf{Alice~Balard\textsuperscript{1}}, Kostas~Sagonas\textsuperscript{2}, Joshka~Kaufmann\textsuperscript{3,4}, Melanie~Heckwolf\textsuperscript{5,6}, Christophe Eizaguirre\textsuperscript{1}\\ \LARGE a.balard@qmul.ac.uk \includegraphics[width=2.5cm]{fig/twitterlogo.png}@alice\_balard; @EizaguirreLab
+\LARGE \textbf{Alice~Balard\textsuperscript{1}}, Kostas~Sagonas\textsuperscript{2}, Joshka~Kaufmann\textsuperscript{3,4}, Melanie~Heckwolf\textsuperscript{5,6}, Christophe Eizaguirre\textsuperscript{1}\\ \LARGE a.balard@qmul.ac.uk \includegraphics[width=2.5cm]{fig/twitterlogo.png}@alice\_balard @EizaguirreLab
 \end{center}
 \vspace{5mm}
 \large \textsuperscript{1}Queen Mary University of London, UK; \textsuperscript{2} National and Kapodistrian University of Athens, Greece; \textsuperscript{3} University College Cork, Ireland; \textsuperscript{4} Marine Institute, Newport, Ireland; \textsuperscript{5} Smithsonian Tropical Research Institute, Panama; \textsuperscript{6} Leibniz Centre for Tropical Marine Research, Germany}
@@ -89,7 +91,7 @@
   \item Genome-wide DNA methylation patterns differ between infected and control fish, demonstrating the link between infection and DNA methylation\textsuperscript{2}
 \end{enumerate}
 \vspace{5mm} %5mm vertical space
-\textbf{Can parental DNA methylation induced by the infection be transmitted to the next generation, and is it an underlying mechanism of the observed phenotypic differences?}
+\textbf{Can parental DNA methylation induced by the parasite infection be transmitted to the next generation, and is it an underlying mechanism of the observed phenotypic differences?}
 }
 
 % -------------------------
@@ -97,55 +99,41 @@
 % -------------------------
 
 \begin{columns}
-
   \column{0.6} \block{Material \& methods}{\Large
     \begin{itemize}
-      \item Methylome sequencing: \textbf{Reduced Representation Bisulfite Sequencing} single-end reads of 100bp long, Illumina HiSeq 2500. Alignment on a European gynogen genome\textsuperscript{3} and methylation call with BSBolt. Downstream analyses with Methylkit
-      \item Positional methylation: 
-          \begin{itemize}
-          \item \textbf{Is the methylation pattern affected by paternal/offspring treatment?}
-          \end{itemize}
-      \item Differential methylation: 
-          \begin{itemize}
-          \item \textbf{Which are the specific differences between paternal/offspring treatment groups?}
-          \item \textbf{Can we correlation theses positions with the phenotype?}
-          \end{itemize}
-      \item \textbf{Link methylation and phenotype}:
-        \begin{itemize} 
-        \item PCA of methylation values at sites which are differentially methylated in at least 4 out of 8 brother pairs
-        \item Extract first and second axes
-        \item Linear model of Body condition index explained by:\\ PCA1 * PCA2 * Number of worms * Paternal treatment
-        \end{itemize}
+      \item Methylome sequencing: \textbf{Reduced Representation Bisulfite Sequencing} single-end reads of 100bp long, Illumina HiSeq 2500. Alignment on a European gynogen genome\textsuperscript{3} and methylation call with BSBolt. Downstream analyses with Methylkit.
+      \item Positional methylation: \newline\textbf{\textcolor{red}{Q1.}Is genetics or treatment a stronger predictor of methylation?} \newline\textbf{\textcolor{red}{Q2.}Is the methylation pattern affected by paternal/offspring treatment?}
+      \item Differential methylation in half the brother pairs (4/8): \textbf{\textcolor{red}{Q3.}What are the specific differences between paternal/offspring treatment groups?}
+      \item PCA of methylation at differentially methylated sites, linear model of Body Condition Index explained by the 2 first axes, the number of worms, paternal treatment, and interactions: \textbf{\textcolor{red}{Q4.}Can we find a link between methylation and phenotype?}
     \end{itemize}
  }
- % -------------------------
-% RESULTS 1
-% -------------------------
-\block{1. DNA methylation profiles cluster by genetic background}{ 
-  \Large \centering \includegraphics[scale=1.7]{fig/cluster.png}
-}
  
+% -------------------------
+% EXPE DESIGN
+% ------------------------
  \colorlet{blockbodybgcolor}{white} % set block to white for expe desing
- \column{0.4} \block{}{
+ \column{0.4} \block{Experimental design}{
                \includegraphics[scale=1.3]{fig/designExpe.pdf}
     }
 \colorlet{blockbodybgcolor}{mylightblue} % back to default colour
-% -------------------------
-% RESULTS 2
-% -------------------------
-\block{2. Methylation is more affected by the paternal infection than by the offspring infection itself}{
-\Large \centering \includegraphics[scale=1]{fig/NMDS.png}}
 
 \end{columns}
 
 
+
 \begin{columns}\column{0.56}
+% -------------------------
+% RESULTS 1
+% -------------------------
+\block{\textcolor{red}{Q1.}DNA methylation profiles cluster by genetic background}{ 
+  \Large \centering \includegraphics[scale=1.7]{fig/cluster.png}
+}
 
 % -------------------------
 % RESULTS 3
 % -------------------------
-\block{3. Specific methylated sites linked with paternal infection are associated with genes related to immunity and transcription}{
-\Large \centering \includegraphics[scale=3]{fig/DMS.png}}
+\block{\textcolor{red}{Q3.}Specific methylated sites linked with paternal infection are associated with genes related to immunity and transcription}{
+\Large \centering \includegraphics[scale=1.45]{fig/ManhattanGenes_CC_TCANDCT_TT.pdf}}
 
 % ----------
 % REFERENCES
@@ -158,12 +146,17 @@
 
 
 \column{0.44}
+% -------------------------
+% RESULTS 2
+% -------------------------
+\block{\textcolor{red}{Q2.}Methylation is more affected by the paternal infection than by the offspring infection itself}{
+\Large \centering \includegraphics[scale=1.1]{fig/NMDSplot_allG2.pdf}}
 
 % -------------------------
 % RESULTS 4
 % -------------------------
-\block{4. Body condition correlates with methylation at certain positions, in different directions depending on the paternal treatment}{
-\Large \centering \includegraphics[scale=1.8]{fig/methPheno.png}
+\block{\textcolor{red}{Q4.}Body condition correlates with methylation at differentially methylated sites, in different directions depending on the paternal treatment}{
+\Large \centering \includegraphics[scale=1.35]{fig/phenoMethPlot.pdf}
 }
 
 % ----------
@@ -171,7 +164,7 @@
 % ----------
 \colorlet{blockbodybgcolor}{white} %back to white
    \block[]{}{\LARGE \centering %\vspace{-3ex}
-    \includegraphics[scale=4.5]{fig/logo--en.pdf}
+    \includegraphics[scale=4.5]{fig/logoFooter.pdf}
    }
 \colorlet{blockbodybgcolor}{mylightblue} %back to default
 

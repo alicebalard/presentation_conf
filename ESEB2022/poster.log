@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.10)  9 AUG 2022 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.10)  13 AUG 2022 18:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,6 +862,11 @@ File: fig/fishFlockL.png Graphic file (type png)
 <use fig/fishFlockL.png>
 Package pdftex.def Info: fig/fishFlockL.png  used on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 210.01917pt.
+<fig/portrait.png, id=31, 149.5989pt x 150.3216pt>
+File: fig/portrait.png Graphic file (type png)
+<use fig/portrait.png>
+Package pdftex.def Info: fig/portrait.png  used on input line 68.
+(pdftex.def)             Requested size: 227.62204pt x 228.72743pt.
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
@@ -880,65 +885,83 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 Missing character: There is no - in font nullfont!
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <35.83> on input line 79.
-<fig/twitterlogo.png, id=31, 3854.4pt x 2168.1pt>
+(Font)              <35.83> on input line 81.
+<fig/twitterlogo.png, id=32, 3854.4pt x 2168.1pt>
 File: fig/twitterlogo.png Graphic file (type png)
 <use fig/twitterlogo.png>
-Package pdftex.def Info: fig/twitterlogo.png  used on input line 79.
+Package pdftex.def Info: fig/twitterlogo.png  used on input line 81.
 (pdftex.def)             Requested size: 71.13188pt x 39.99673pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-20.
+09.
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<fig/cluster.png, id=34, 675.27281pt x 206.27063pt>
-File: fig/cluster.png Graphic file (type png)
-<use fig/cluster.png>
-Package pdftex.def Info: fig/cluster.png  used on input line 126.
-(pdftex.def)             Requested size: 1147.95891pt x 350.65855pt.
 <fig/designExpe.pdf, id=35, 596.07802pt x 311.72542pt>
 File: fig/designExpe.pdf Graphic file (type pdf)
 <use fig/designExpe.pdf>
-Package pdftex.def Info: fig/designExpe.pdf  used on input line 131.
+Package pdftex.def Info: fig/designExpe.pdf  used on input line 117.
 (pdftex.def)             Requested size: 774.90134pt x 405.243pt.
-<fig/NMDS.png, id=36, 720.44156pt x 604.13203pt>
-File: fig/NMDS.png Graphic file (type png)
-<use fig/NMDS.png>
-Package pdftex.def Info: fig/NMDS.png  used on input line 137.
-(pdftex.def)             Requested size: 720.43979pt x 604.13055pt.
-<fig/DMS.png, id=37, 276.5532pt x 250.0542pt>
-File: fig/DMS.png Graphic file (type png)
-<use fig/DMS.png>
-Package pdftex.def Info: fig/DMS.png  used on input line 148.
-(pdftex.def)             Requested size: 829.65756pt x 750.16072pt.
-<fig/methPheno.png, id=38, 505.89pt x 361.35pt>
-File: fig/methPheno.png Graphic file (type png)
-<use fig/methPheno.png>
-Package pdftex.def Info: fig/methPheno.png  used on input line 167.
-(pdftex.def)             Requested size: 910.60129pt x 650.42952pt.
-<fig/logo--en.pdf, id=39, 101.91544pt x 36.98216pt>
-File: fig/logo--en.pdf Graphic file (type pdf)
-<use fig/logo--en.pdf>
-Package pdftex.def Info: fig/logo--en.pdf  used on input line 175.
-(pdftex.def)             Requested size: 458.61829pt x 166.41925pt.
- [1
+<fig/cluster.png, id=38, 675.27281pt x 206.27063pt>
+File: fig/cluster.png Graphic file (type png)
+<use fig/cluster.png>
+Package pdftex.def Info: fig/cluster.png  used on input line 130.
+(pdftex.def)             Requested size: 1147.95891pt x 350.65855pt.
+<fig/ManhattanGenes_CC_TCANDCT_TT.pdf, id=39, 712.44765pt x 628.48952pt>
+File: fig/ManhattanGenes_CC_TCANDCT_TT.pdf Graphic file (type pdf)
+<use fig/ManhattanGenes_CC_TCANDCT_TT.pdf>
+Package pdftex.def Info: fig/ManhattanGenes_CC_TCANDCT_TT.pdf  used on input li
+ne 136.
+(pdftex.def)             Requested size: 1033.04439pt x 911.30566pt.
+<fig/NMDSplot_allG2.pdf, id=40, 645.55154pt x 592.68117pt>
+File: fig/NMDSplot_allG2.pdf Graphic file (type pdf)
+<use fig/NMDSplot_allG2.pdf>
+Package pdftex.def Info: fig/NMDSplot_allG2.pdf  used on input line 153.
+(pdftex.def)             Requested size: 710.10889pt x 651.9513pt.
+<fig/phenoMethPlot.pdf, id=41, 694.92142pt x 361.35pt>
+File: fig/phenoMethPlot.pdf Graphic file (type pdf)
+<use fig/phenoMethPlot.pdf>
+Package pdftex.def Info: fig/phenoMethPlot.pdf  used on input line 160.
+(pdftex.def)             Requested size: 938.14586pt x 487.82352pt.
+
+Overfull \hbox (3.63777pt too wide) in paragraph at lines 160--160
+ [][] 
+ []
+
+<fig/logoFooter.pdf, id=42, 183.69221pt x 36.98216pt>
+File: fig/logoFooter.pdf Graphic file (type pdf)
+<use fig/logoFooter.pdf>
+Package pdftex.def Info: fig/logoFooter.pdf  used on input line 168.
+(pdftex.def)             Requested size: 826.6129pt x 166.41925pt.
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./fig/fishflockL.png> <./f
-ig/twitterlogo.png> <./fig/cluster.png> <./fig/designExpe.pdf> <./fig/NMDS.png>
- <./fig/DMS.png> <./fig/methPheno.png (PNG copy)> <./fig/logo--en.pdf
+ig/portrait.png> <./fig/twitterlogo.png> <./fig/designExpe.pdf> <./fig/cluster.
+png> <./fig/ManhattanGenes_CC_TCANDCT_TT.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./fig/logo--en.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/ManhattanGenes_CC_TCANDCT_TT.pdf)
+: PDF inclusion: multiple pdfs with page group included in a single page
+> <./fig/NMDSplot_allG2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/NMDSplot_allG2.pdf): PDF inclusio
+n: multiple pdfs with page group included in a single page
+> <./fig/phenoMethPlot.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/phenoMethPlot.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+> <./fig/logoFooter.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./fig/logoFooter.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
 >] (./poster.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17788 strings out of 481252
- 390043 string characters out of 5915887
- 720745 words of memory out of 5000000
- 34320 multiletter control sequences out of 15000+600000
+ 17793 strings out of 481252
+ 390457 string characters out of 5915887
+ 721745 words of memory out of 5000000
+ 34324 multiletter control sequences out of 15000+600000
  499749 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,10n,130p,465b,862s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -946,10 +969,10 @@ Here is how much of TeX's memory you used:
 vips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmb10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmbo10.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb>
-Output written on poster.pdf (1 page, 2212943 bytes).
+Output written on poster.pdf (1 page, 2371077 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
